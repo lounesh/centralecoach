@@ -1,0 +1,1882 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Directory builder v1.4.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-05-12 09:13:47+0000\n"
+"Last-Translator: smaids-2-2 <smaids2007@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: auth_autoload.php:46
+#: paypal_ipn.php:216
+#@ directory-builder
+msgid "Signup for subscription completed!"
+msgstr ""
+
+#: auth_autoload.php:58
+#@ directory-builder
+msgid "Something went wrong while processing your subscription!"
+msgstr ""
+
+#: auth_autoload.php:155
+#@ directory-builder
+msgid "Charge Credit Card ERROR: Invalid response"
+msgstr ""
+
+#: auth_autoload.php:158
+#@ directory-builder
+msgid "Something went wrong while processing your card!"
+msgstr ""
+
+#: auth_cancel.php:28
+#: auth_cancel.php:32
+#: paypal_ipn.php:223
+#@ directory-builder
+msgid "Subscription cancelled!"
+msgstr ""
+
+#: auth_cancel.php:37
+#@ directory-builder
+msgid "There's no subscription ID!"
+msgstr ""
+
+#: auth_refund.php:43
+#@ directory-builder
+msgid "Money refunded!"
+msgstr ""
+
+#: auth_refund.php:49
+#: directory-builder.php:2189
+#, php-format
+#@ directory-builder
+msgid "Payment of %s refunded! %s"
+msgstr ""
+
+#: auth_refund.php:49
+#: directory-builder.php:2189
+#: directory-builder.php:6671
+#@ directory-builder
+msgid "Reason"
+msgstr ""
+
+#: auth_refund.php:58
+#@ directory-builder
+msgid "There was an issue, error "
+msgstr ""
+
+#: auth_refund.php:61
+#@ directory-builder
+msgid "There was an issue, please try later!"
+msgstr ""
+
+#: auth_refund.php:64
+#@ directory-builder
+msgid "There's no credit card data!"
+msgstr ""
+
+#: authorize_relay.php:10
+#@ directory-builder
+msgid "Payment received!"
+msgstr ""
+
+#: authorize_relay.php:13
+#, php-format
+#@ directory-builder
+msgid "Payment declined, %s"
+msgstr ""
+
+#: authorize_relay.php:16
+#, php-format
+#@ directory-builder
+msgid "Payment error, %s"
+msgstr ""
+
+#: authorize_relay.php:19
+#, php-format
+#@ directory-builder
+msgid "Payment held, %s"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: directory-builder.php:0
+#: directory-builder.php:7483
+#@ directory-builder
+msgid "Directory builder"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: directory-builder.php:0
+#@ directory-builder
+msgid "https://cohhe.com/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: directory-builder.php:0
+#@ directory-builder
+msgid "Directory builder provides listing functionality for your theme."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: directory-builder.php:0
+#@ directory-builder
+msgid "Cohhe"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: directory-builder.php:0
+#@ directory-builder
+msgid "1.4.8"
+msgstr ""
+
+#: directory-builder.php:115
+#: directory-builder.php:116
+#@ directory-builder
+msgid "Directory"
+msgstr ""
+
+#: directory-builder.php:126
+#: directory-builder.php:127
+#: directory-builder.php:6574
+#@ directory-builder
+msgid "Dashboard"
+msgstr ""
+
+#: directory-builder.php:135
+#: directory-builder.php:136
+#@ directory-builder
+msgid "Custom fields"
+msgstr ""
+
+#: directory-builder.php:144
+#: directory-builder.php:145
+#@ directory-builder
+msgid "Packages"
+msgstr ""
+
+#: directory-builder.php:153
+#: directory-builder.php:154
+#: directory-builder.php:4768
+#: directory-builder.php:7487
+#@ directory-builder
+msgid "Listing claims"
+msgstr ""
+
+#: directory-builder.php:162
+#: directory-builder.php:163
+#@ directory-builder
+msgid "Subscriptions"
+msgstr ""
+
+#: directory-builder.php:171
+#: directory-builder.php:172
+#@ directory-builder
+msgid "Advertisements"
+msgstr ""
+
+#: directory-builder.php:180
+#: directory-builder.php:181
+#@ directory-builder
+msgid "Registration"
+msgstr ""
+
+#: directory-builder.php:189
+#: directory-builder.php:190
+#@ directory-builder
+msgid "Email templates"
+msgstr ""
+
+#: directory-builder.php:198
+#: directory-builder.php:199
+#@ directory-builder
+msgid "Import"
+msgstr ""
+
+#: directory-builder.php:207
+#: directory-builder.php:208
+#@ directory-builder
+msgid "Themes"
+msgstr ""
+
+#: directory-builder.php:216
+#: directory-builder.php:217
+#@ directory-builder
+msgid "Settings"
+msgstr ""
+
+#: directory-builder.php:233
+#: directory-builder.php:6613
+#@ directory-builder
+msgid "Listings"
+msgstr ""
+
+#: directory-builder.php:234
+#@ directory-builder
+msgid "Listing"
+msgstr ""
+
+#: directory-builder.php:314
+#: directory-builder.php:358
+#: directory-builder.php:726
+#@ directory-builder
+msgid "Icon selected: "
+msgstr ""
+
+#: directory-builder.php:415
+#: directory-builder.php:479
+#: directory-builder.php:919
+#: directory-builder.php:1214
+#: directory-builder.php:1347
+#: directory-builder.php:3672
+#: directory-builder.php:4523
+#: directory-builder.php:4762
+#: directory-builder.php:4826
+#: directory-builder.php:4899
+#: directory-builder.php:6900
+#@ directory-builder
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: directory-builder.php:729
+#@ directory-builder
+msgid "Choose icon"
+msgstr ""
+
+#: directory-builder.php:730
+#@ directory-builder
+msgid "Delete icon"
+msgstr ""
+
+#: directory-builder.php:1118
+#@ directory-builder
+msgid "User registration confirmation"
+msgstr ""
+
+#: directory-builder.php:1131
+#@ directory-builder
+msgid "User registration"
+msgstr ""
+
+#: directory-builder.php:1144
+#, php-format
+#@ directory-builder
+msgid "A new user, %s, just confirmed email address and completed registration process!"
+msgstr ""
+
+#: directory-builder.php:1146
+#@ directory-builder
+msgid "Listing claimed"
+msgstr ""
+
+#: directory-builder.php:1159
+#, php-format
+#@ directory-builder
+msgid "The user %s just claimed a listing %s<br>Listing can be found here: %s"
+msgstr ""
+
+#: directory-builder.php:1161
+#@ directory-builder
+msgid "Payment received"
+msgstr ""
+
+#: directory-builder.php:1174
+#, php-format
+#@ directory-builder
+msgid "A payment of %s was just received for %s"
+msgstr ""
+
+#: directory-builder.php:1176
+#@ directory-builder
+msgid "Listing added"
+msgstr ""
+
+#: directory-builder.php:1189
+#, php-format
+#@ directory-builder
+msgid "A new listing was just added by %s<br>Listing can be viewed at: %s"
+msgstr ""
+
+#: directory-builder.php:1355
+#@ directory-builder
+msgid "Only .csv file extensions are available for importing process!"
+msgstr ""
+
+#: directory-builder.php:1357
+#@ directory-builder
+msgid "Uploaded file is empty!"
+msgstr ""
+
+#: directory-builder.php:1428
+#, php-format
+#@ directory-builder
+msgid "Failed to import line %s from import file, encountered an error: %s"
+msgstr ""
+
+#: directory-builder.php:1434
+#, php-format
+#@ directory-builder
+msgid "All requested fields were not set! Failed to import line %s from import file!"
+msgstr ""
+
+#: directory-builder.php:1462
+#@ directory-builder
+msgid "Upload and import"
+msgstr ""
+
+#: directory-builder.php:1464
+#@ directory-builder
+msgid "Import accepts .csv files, read more about the import process at our"
+msgstr ""
+
+#: directory-builder.php:1481
+#: directory-builder.php:4875
+#: directory-builder.php:5204
+#: directory-builder.php:5227
+#: directory-builder.php:6708
+#@ directory-builder
+msgid "Edit"
+msgstr ""
+
+#: directory-builder.php:1722
+#@ directory-builder
+msgid "Advanced listing fields"
+msgstr ""
+
+#: directory-builder.php:1731
+#@ directory-builder
+msgid "Order details"
+msgstr ""
+
+#: directory-builder.php:1740
+#@ directory-builder
+msgid "Payment history"
+msgstr ""
+
+#: directory-builder.php:1749
+#@ directory-builder
+msgid "Gateway notes"
+msgstr ""
+
+#: directory-builder.php:1758
+#@ directory-builder
+msgid "Open listing image"
+msgstr ""
+
+#: directory-builder.php:1931
+#@ directory-builder
+msgid "Listing images "
+msgstr ""
+
+#: directory-builder.php:1994
+#: directory-builder.php:1995
+#: directory-builder.php:1996
+#: directory-builder.php:1998
+#: directory-builder.php:1999
+#: directory-builder.php:2000
+#: directory-builder.php:2001
+#: directory-builder.php:2008
+#: directory-builder.php:2009
+#@ directory-builder
+msgid "No information"
+msgstr ""
+
+#: directory-builder.php:2014
+#: directory-builder.php:6650
+#@ directory-builder
+msgid "Never"
+msgstr ""
+
+#: directory-builder.php:2019
+#: directory-builder.php:6654
+#: directory-builder.php:6661
+#: directory-builder.php:6672
+#@ directory-builder
+msgid "Unknown"
+msgstr ""
+
+#: directory-builder.php:2033
+#@ directory-builder
+msgid "Set status"
+msgstr ""
+
+#: directory-builder.php:2041
+#: directory-builder.php:2058
+#: directory-builder.php:2071
+#: directory-builder.php:2085
+#: directory-builder.php:6531
+#@ directory-builder
+msgid "Change"
+msgstr ""
+
+#: directory-builder.php:2047
+#@ directory-builder
+msgid "Add package"
+msgstr ""
+
+#: directory-builder.php:2107
+#@ directory-builder
+msgid "Payment invoice"
+msgstr ""
+
+#: directory-builder.php:2107
+#@ directory-builder
+msgid "View invoice"
+msgstr ""
+
+#: directory-builder.php:2113
+#@ directory-builder
+msgid "Payment:"
+msgstr ""
+
+#: directory-builder.php:2116
+#@ directory-builder
+msgid "Status:"
+msgstr ""
+
+#: directory-builder.php:2119
+#@ directory-builder
+msgid "Gateway:"
+msgstr ""
+
+#: directory-builder.php:2124
+#@ directory-builder
+msgid "Refunded by:"
+msgstr ""
+
+#: directory-builder.php:2129
+#@ directory-builder
+msgid "Item:"
+msgstr ""
+
+#: directory-builder.php:2132
+#: directory-builder.php:7924
+#@ directory-builder
+msgid "Total:"
+msgstr ""
+
+#: directory-builder.php:2135
+#@ directory-builder
+msgid "Billing information"
+msgstr ""
+
+#: directory-builder.php:2138
+#@ directory-builder
+msgid "Full name"
+msgstr ""
+
+#: directory-builder.php:2139
+#@ directory-builder
+msgid "Company"
+msgstr ""
+
+#: directory-builder.php:2140
+#@ directory-builder
+msgid "Phone"
+msgstr ""
+
+#: directory-builder.php:2141
+#: directory-builder.php:6597
+#: directory-builder.php:6783
+#: directory-builder.php:6784
+#: template/single-listings.php:394
+#@ directory-builder
+#@ whitelab
+msgid "Email"
+msgstr ""
+
+#: directory-builder.php:2142
+#@ directory-builder
+msgid "Country"
+msgstr ""
+
+#: directory-builder.php:2143
+#: directory-builder.php:6389
+#@ directory-builder
+msgid "Address"
+msgstr ""
+
+#: directory-builder.php:2144
+#@ directory-builder
+msgid "City"
+msgstr ""
+
+#: directory-builder.php:2145
+#@ directory-builder
+msgid "State"
+msgstr ""
+
+#: directory-builder.php:2146
+#@ directory-builder
+msgid "ZIP"
+msgstr ""
+
+#: directory-builder.php:2147
+#@ directory-builder
+msgid "Card Auth Code"
+msgstr ""
+
+#: directory-builder.php:2148
+#@ directory-builder
+msgid "Transaction ID"
+msgstr ""
+
+#: directory-builder.php:2149
+#@ directory-builder
+msgid "Subscription ID"
+msgstr ""
+
+#: directory-builder.php:2209
+#@ directory-builder
+msgid "No notes yet!"
+msgstr ""
+
+#: directory-builder.php:2246
+#@ directory-builder
+msgid "No payment history yet!"
+msgstr ""
+
+#: directory-builder.php:2254
+#@ directory-builder
+msgid "Refund"
+msgstr ""
+
+#: directory-builder.php:2260
+#@ directory-builder
+msgid "Total refund"
+msgstr ""
+
+#: directory-builder.php:2272
+#@ directory-builder
+msgid "Refund amount"
+msgstr ""
+
+#: directory-builder.php:2276
+#@ directory-builder
+msgid "Refund reason (optional)"
+msgstr ""
+
+#: directory-builder.php:2281
+#@ directory-builder
+msgid "You will have to manually refund this amount through your payment gateway after using this button."
+msgstr ""
+
+#: directory-builder.php:2281
+#, php-format
+#@ directory-builder
+msgid "Refund %s%d manually"
+msgstr ""
+
+#: directory-builder.php:2281
+#: directory-builder.php:2282
+#: directory-builder.php:6412
+#@ directory-builder
+msgid "Processing"
+msgstr ""
+
+#: directory-builder.php:2281
+#: directory-builder.php:2282
+#@ directory-builder
+msgid "Refunded"
+msgstr ""
+
+#: directory-builder.php:2282
+#, php-format
+#@ directory-builder
+msgid "Refund %s%d via %s"
+msgstr ""
+
+#: directory-builder.php:2515
+#: directory-builder.php:2618
+#: directory-builder.php:2971
+#@ directory-builder
+msgid "Search"
+msgstr ""
+
+#: directory-builder.php:2787
+#@ directory-builder
+msgid "Always open"
+msgstr ""
+
+#: directory-builder.php:2788
+#@ directory-builder
+msgid "Open in specific hours"
+msgstr ""
+
+#: directory-builder.php:2817
+#@ directory-builder
+msgid "Add hours"
+msgstr ""
+
+#: directory-builder.php:2821
+#@ directory-builder
+msgid "Mon"
+msgstr ""
+
+#: directory-builder.php:2822
+#@ directory-builder
+msgid "Tue"
+msgstr ""
+
+#: directory-builder.php:2823
+#@ directory-builder
+msgid "Wed"
+msgstr ""
+
+#: directory-builder.php:2824
+#@ directory-builder
+msgid "Thu"
+msgstr ""
+
+#: directory-builder.php:2825
+#@ directory-builder
+msgid "Fri"
+msgstr ""
+
+#: directory-builder.php:2826
+#@ directory-builder
+msgid "Sat"
+msgstr ""
+
+#: directory-builder.php:2827
+#@ directory-builder
+msgid "Sun"
+msgstr ""
+
+#: directory-builder.php:2831
+#@ directory-builder
+msgid "From:"
+msgstr ""
+
+#: directory-builder.php:2834
+#@ directory-builder
+msgid "Till:"
+msgstr ""
+
+#: directory-builder.php:2836
+#@ directory-builder
+msgid "Add"
+msgstr ""
+
+#: directory-builder.php:2894
+#: directory-builder.php:3033
+#: directory-builder.php:3034
+#@ directory-builder
+msgid "Listing name"
+msgstr ""
+
+#: directory-builder.php:2918
+#: directory-builder.php:3039
+#@ directory-builder
+msgid "Search radius"
+msgstr ""
+
+#: directory-builder.php:2918
+#: directory-builder.php:3039
+#@ directory-builder
+msgid "Kilometers"
+msgstr ""
+
+#: directory-builder.php:2918
+#: directory-builder.php:3039
+#@ directory-builder
+msgid "Miles"
+msgstr ""
+
+#: directory-builder.php:2919
+#: directory-builder.php:3040
+#@ directory-builder
+msgid "km"
+msgstr ""
+
+#: directory-builder.php:2919
+#: directory-builder.php:3040
+#@ directory-builder
+msgid "miles"
+msgstr ""
+
+#: directory-builder.php:2975
+#@ directory-builder
+msgid "Sort by:"
+msgstr ""
+
+#: directory-builder.php:2988
+#@ directory-builder
+msgid "results"
+msgstr ""
+
+#: directory-builder.php:2990
+#@ directory-builder
+msgid "Sort"
+msgstr ""
+
+#: directory-builder.php:3015
+#@ directory-builder
+msgid "Show more"
+msgstr ""
+
+#: directory-builder.php:3097
+#: directory-builder.php:5895
+#@ directory-builder
+msgid "Category"
+msgstr ""
+
+#: directory-builder.php:3127
+#: directory-builder.php:3128
+#@ directory-builder
+msgid "Keyword"
+msgstr ""
+
+#: directory-builder.php:3526
+#@ directory-builder
+msgid "You're over your API query limit!"
+msgstr ""
+
+#: directory-builder.php:3528
+#@ directory-builder
+msgid "Seems like your address request was denied by Google!"
+msgstr ""
+
+#: directory-builder.php:3530
+#@ directory-builder
+msgid "Something went wrong while contacting Google!"
+msgstr ""
+
+#: directory-builder.php:4795
+#@ directory-builder
+msgid "Not approved"
+msgstr ""
+
+#: directory-builder.php:4798
+#: directory-builder.php:5110
+#@ directory-builder
+msgid "Claimed"
+msgstr ""
+
+#: directory-builder.php:4799
+#@ directory-builder
+msgid "Remove"
+msgstr ""
+
+#: directory-builder.php:4802
+#@ directory-builder
+msgid "Approve"
+msgstr ""
+
+#: directory-builder.php:4803
+#: directory-builder.php:4876
+#@ directory-builder
+msgid "Cancel"
+msgstr ""
+
+#: directory-builder.php:4813
+#@ directory-builder
+msgid "None of the listings is claimed!"
+msgstr ""
+
+#: directory-builder.php:4832
+#@ directory-builder
+msgid "Package subscriptions"
+msgstr ""
+
+#: directory-builder.php:4857
+#, php-format
+#@ directory-builder
+msgid "Once a %s"
+msgstr ""
+
+#: directory-builder.php:4859
+#, php-format
+#@ directory-builder
+msgid "Every %d %s"
+msgstr ""
+
+#: directory-builder.php:4877
+#@ directory-builder
+msgid "You can cancel this subscription via your PayPal account."
+msgstr ""
+
+#: directory-builder.php:4886
+#@ directory-builder
+msgid "There's no subscriptions!"
+msgstr ""
+
+#: directory-builder.php:4949
+#@ directory-builder
+msgid "Listing advertisements"
+msgstr ""
+
+#: directory-builder.php:5204
+#@ directory-builder
+msgid "Pingback:"
+msgstr ""
+
+#: directory-builder.php:5224
+#@ directory-builder
+msgid "Your review is awaiting moderation."
+msgstr ""
+
+#: directory-builder.php:5226
+#@ directory-builder
+msgid "Rating:"
+msgstr ""
+
+#: directory-builder.php:5323
+#@ directory-builder
+msgid "Contacting regarding your listing"
+msgstr ""
+
+#: directory-builder.php:5324
+#@ directory-builder
+msgid "Name:"
+msgstr ""
+
+#: directory-builder.php:5325
+#@ directory-builder
+msgid "Email:"
+msgstr ""
+
+#: directory-builder.php:5326
+#@ directory-builder
+msgid "Message:"
+msgstr ""
+
+#: directory-builder.php:5366
+#@ directory-builder
+msgid "Your account is pending validation!"
+msgstr ""
+
+#: directory-builder.php:5398
+#@ directory-builder
+msgid "You failed the captcha test!"
+msgstr ""
+
+#: directory-builder.php:5425
+#@ directory-builder
+msgid "registration shortcode"
+msgstr ""
+
+#: directory-builder.php:5448
+#: directory-builder.php:6522
+#@ directory-builder
+msgid "We're sorry but there has been an error"
+msgstr ""
+
+#: directory-builder.php:5451
+#@ directory-builder
+msgid "Your passwords didn't match!"
+msgstr ""
+
+#: directory-builder.php:5481
+#@ directory-builder
+msgid "Checkout"
+msgstr ""
+
+#: directory-builder.php:5482
+#@ directory-builder
+msgid "Choose a payment option bellow and fill out the information"
+msgstr ""
+
+#: directory-builder.php:5488
+#@ directory-builder
+msgid "Credit card"
+msgstr ""
+
+#: directory-builder.php:5495
+#@ directory-builder
+msgid "PayPal"
+msgstr ""
+
+#: directory-builder.php:5502
+#@ directory-builder
+msgid "1. Billing information"
+msgstr ""
+
+#: directory-builder.php:5504
+#: directory-builder.php:5505
+#@ directory-builder
+msgid "Full name *"
+msgstr ""
+
+#: directory-builder.php:5509
+#: directory-builder.php:5510
+#@ directory-builder
+msgid "Company name"
+msgstr ""
+
+#: directory-builder.php:5513
+#: directory-builder.php:5514
+#@ directory-builder
+msgid "Phone *"
+msgstr ""
+
+#: directory-builder.php:5517
+#: directory-builder.php:5518
+#@ directory-builder
+msgid "Email *"
+msgstr ""
+
+#: directory-builder.php:5521
+#: directory-builder.php:5522
+#@ directory-builder
+msgid "Country *"
+msgstr ""
+
+#: directory-builder.php:5527
+#: directory-builder.php:5528
+#@ directory-builder
+msgid "Address 1 *"
+msgstr ""
+
+#: directory-builder.php:5532
+#: directory-builder.php:5533
+#@ directory-builder
+msgid "City *"
+msgstr ""
+
+#: directory-builder.php:5536
+#: directory-builder.php:5537
+#@ directory-builder
+msgid "State / County *"
+msgstr ""
+
+#: directory-builder.php:5542
+#: directory-builder.php:5543
+#@ directory-builder
+msgid "Postcode / ZIP *"
+msgstr ""
+
+#: directory-builder.php:5557
+#@ directory-builder
+msgid "2. Credit card info"
+msgstr ""
+
+#: directory-builder.php:5559
+#: directory-builder.php:5560
+#@ directory-builder
+msgid "Name on card *"
+msgstr ""
+
+#: directory-builder.php:5563
+#: directory-builder.php:5564
+#@ directory-builder
+msgid "Card number *"
+msgstr ""
+
+#: directory-builder.php:5568
+#: directory-builder.php:5569
+#@ directory-builder
+msgid "CVV code *"
+msgstr ""
+
+#: directory-builder.php:5572
+#: directory-builder.php:5573
+#@ directory-builder
+msgid "Month *"
+msgstr ""
+
+#: directory-builder.php:5576
+#: directory-builder.php:5577
+#@ directory-builder
+msgid "Year *"
+msgstr ""
+
+#: directory-builder.php:5589
+#: directory-builder.php:5638
+#@ directory-builder
+msgid "I agree to all statements in"
+msgstr ""
+
+#: directory-builder.php:5589
+#: directory-builder.php:5638
+#@ directory-builder
+msgid "terms and conditions"
+msgstr ""
+
+#: directory-builder.php:5595
+#@ directory-builder
+msgid "Pay with credit card"
+msgstr ""
+
+#: directory-builder.php:5615
+#@ directory-builder
+msgid "2. PayPal"
+msgstr ""
+
+#: directory-builder.php:5644
+#@ directory-builder
+msgid "Proceed to PayPal"
+msgstr ""
+
+#: directory-builder.php:5765
+#@ directory-builder
+msgid "Forever"
+msgstr ""
+
+#: directory-builder.php:5767
+#: directory-builder.php:6220
+#: template/single-listings.php:100
+#@ directory-builder
+#@ whitelab
+msgid "days"
+msgstr ""
+
+#: directory-builder.php:5787
+#@ directory-builder
+msgid "Your listing was successfully added, but your package couldn't be found!"
+msgstr ""
+
+#: directory-builder.php:5805
+#@ directory-builder
+msgid "There was an issue while adding your listing!"
+msgstr ""
+
+#: directory-builder.php:5832
+#@ directory-builder
+msgid "Listing updated successfully!"
+msgstr ""
+
+#: directory-builder.php:5855
+#: directory-builder.php:5856
+#@ directory-builder
+msgid "Listing title"
+msgstr ""
+
+#: directory-builder.php:5858
+#: directory-builder.php:5916
+#@ directory-builder
+msgid "This field is required!"
+msgstr ""
+
+#: directory-builder.php:5862
+#: directory-builder.php:5863
+#@ directory-builder
+msgid "Listing short description"
+msgstr ""
+
+#: directory-builder.php:5866
+#: directory-builder.php:5867
+#@ directory-builder
+msgid "Listing long description"
+msgstr ""
+
+#: directory-builder.php:5869
+#, php-format
+#@ directory-builder
+msgid "To display gallery images in your listing, please put %s into the content, at the place where you want your gallery shown."
+msgstr ""
+
+#: directory-builder.php:5878
+#@ directory-builder
+msgid "Listing category"
+msgstr ""
+
+#: directory-builder.php:5967
+#@ directory-builder
+msgid "Set address on map"
+msgstr ""
+
+#: directory-builder.php:6112
+#@ directory-builder
+msgid "Featured image"
+msgstr ""
+
+#: directory-builder.php:6115
+#: directory-builder.php:6126
+#@ directory-builder
+msgid "Drag an image here or <a>browse</a> for the image to upload."
+msgstr ""
+
+#: directory-builder.php:6119
+#: directory-builder.php:6130
+#@ directory-builder
+msgid "JPG, GIF or PNG. Featured images are 1000x1000 pixels."
+msgstr ""
+
+#: directory-builder.php:6123
+#@ directory-builder
+msgid "Gallery images"
+msgstr ""
+
+#: directory-builder.php:6158
+#@ directory-builder
+msgid "Already have an account? Go ahead and sign in now!"
+msgstr ""
+
+#: directory-builder.php:6159
+#: directory-builder.php:6160
+#@ directory-builder
+msgid "Your username"
+msgstr ""
+
+#: directory-builder.php:6163
+#: directory-builder.php:6164
+#@ directory-builder
+msgid "Your password"
+msgstr ""
+
+#: directory-builder.php:6165
+#: directory-builder.php:7079
+#@ directory-builder
+msgid "Sign in"
+msgstr ""
+
+#: directory-builder.php:6178
+#@ directory-builder
+msgid "Already have an account? Go ahead and"
+msgstr ""
+
+#: directory-builder.php:6178
+#@ directory-builder
+msgid "sign in"
+msgstr ""
+
+#: directory-builder.php:6178
+#@ directory-builder
+msgid "now!"
+msgstr ""
+
+#: directory-builder.php:6179
+#@ directory-builder
+msgid "Or you can simply register with your details below!"
+msgstr ""
+
+#: directory-builder.php:6197
+#@ directory-builder
+msgid "Are you human?"
+msgstr ""
+
+#: directory-builder.php:6203
+#@ directory-builder
+msgid "Listing package"
+msgstr ""
+
+#: directory-builder.php:6218
+#: template/single-listings.php:98
+#@ directory-builder
+#@ whitelab
+msgid "forever"
+msgstr ""
+
+#: directory-builder.php:6226
+#: template/single-listings.php:106
+#@ directory-builder
+#@ whitelab
+msgid "Package price"
+msgstr ""
+
+#: directory-builder.php:6227
+#: directory-builder.php:6247
+#: template/single-listings.php:107
+#: template/single-listings.php:121
+#@ directory-builder
+#@ whitelab
+msgid "Run listing for"
+msgstr ""
+
+#: directory-builder.php:6228
+#: directory-builder.php:6258
+#: template/single-listings.php:108
+#: template/single-listings.php:122
+#@ directory-builder
+#@ whitelab
+msgid "Images allowed"
+msgstr ""
+
+#: directory-builder.php:6229
+#@ directory-builder
+msgid "Listing featured?"
+msgstr ""
+
+#: directory-builder.php:6231
+#: directory-builder.php:6263
+#@ directory-builder
+msgid "Includes advertisements"
+msgstr ""
+
+#: directory-builder.php:6242
+#: template/single-listings.php:118
+#@ directory-builder
+#@ whitelab
+msgid "Free"
+msgstr ""
+
+#: directory-builder.php:6246
+#: template/single-listings.php:120
+#@ directory-builder
+#@ whitelab
+msgid "One Time Payment"
+msgstr ""
+
+#: directory-builder.php:6250
+#, php-format
+#@ directory-builder
+msgid "Recurring payment once a %s"
+msgstr ""
+
+#: directory-builder.php:6252
+#, php-format
+#@ directory-builder
+msgid "Recurring payment every %d %s"
+msgstr ""
+
+#: directory-builder.php:6260
+#@ directory-builder
+msgid "Featured listing"
+msgstr ""
+
+#: directory-builder.php:6267
+#: template/single-listings.php:127
+#@ directory-builder
+#@ whitelab
+msgid "Choose"
+msgstr ""
+
+#: directory-builder.php:6295
+#@ directory-builder
+msgid "Terms and conditions"
+msgstr ""
+
+#: directory-builder.php:6297
+#@ directory-builder
+msgid "I accept terms and conditions!"
+msgstr ""
+
+#: directory-builder.php:6302
+#@ directory-builder
+msgid "Add listing"
+msgstr ""
+
+#: directory-builder.php:6302
+#@ directory-builder
+msgid "Save listing"
+msgstr ""
+
+#: directory-builder.php:6387
+#: directory-builder.php:6618
+#: directory-builder.php:7906
+#@ directory-builder
+msgid "Status"
+msgstr ""
+
+#: directory-builder.php:6390
+#: directory-builder.php:6971
+#@ directory-builder
+msgid "Author"
+msgstr ""
+
+#: directory-builder.php:6494
+#@ directory-builder
+msgid "Passwords did not match!"
+msgstr ""
+
+#: directory-builder.php:6505
+#@ directory-builder
+msgid "Your profile was successfully updated!"
+msgstr ""
+
+#: directory-builder.php:6526
+#@ directory-builder
+msgid "Please enter your new password!"
+msgstr ""
+
+#: directory-builder.php:6529
+#: directory-builder.php:6601
+#: directory-builder.php:6787
+#: directory-builder.php:6788
+#: directory-builder.php:7078
+#@ directory-builder
+msgid "Password"
+msgstr ""
+
+#: directory-builder.php:6530
+#: directory-builder.php:6791
+#: directory-builder.php:6792
+#@ directory-builder
+msgid "Confirm password"
+msgstr ""
+
+#: directory-builder.php:6544
+#@ directory-builder
+msgid "You successfully validated your email and can now login to your account!"
+msgstr ""
+
+#: directory-builder.php:6546
+#@ directory-builder
+msgid "The validation code for your account seems to be invalid!!"
+msgstr ""
+
+#: directory-builder.php:6549
+#@ directory-builder
+msgid "Only logged in users can access this page!"
+msgstr ""
+
+#: directory-builder.php:6575
+#: directory-builder.php:6604
+#@ directory-builder
+msgid "Edit profile"
+msgstr ""
+
+#: directory-builder.php:6577
+#@ directory-builder
+msgid "Add new listing"
+msgstr ""
+
+#: directory-builder.php:6580
+#@ directory-builder
+msgid "My listings"
+msgstr ""
+
+#: directory-builder.php:6581
+#@ directory-builder
+msgid "My favorites"
+msgstr ""
+
+#: directory-builder.php:6582
+#@ directory-builder
+msgid "Log out"
+msgstr ""
+
+#: directory-builder.php:6586
+#@ directory-builder
+msgid "Welcome to your dashboard! From here you can manage all  your listings, check your favorites and edit your profile."
+msgstr ""
+
+#: directory-builder.php:6590
+#@ directory-builder
+msgid "Profile"
+msgstr ""
+
+#: directory-builder.php:6593
+#: directory-builder.php:6779
+#: directory-builder.php:6780
+#@ directory-builder
+msgid "Username"
+msgstr ""
+
+#: directory-builder.php:6617
+#: template/single-listings.php:393
+#@ directory-builder
+#@ whitelab
+msgid "Name"
+msgstr ""
+
+#: directory-builder.php:6619
+#@ directory-builder
+msgid "Package"
+msgstr ""
+
+#: directory-builder.php:6620
+#@ directory-builder
+msgid "Expires on"
+msgstr ""
+
+#: directory-builder.php:6621
+#@ directory-builder
+msgid "Sticky"
+msgstr ""
+
+#: directory-builder.php:6674
+#: directory-builder.php:7602
+#@ directory-builder
+msgid "Yes"
+msgstr ""
+
+#: directory-builder.php:6674
+#: directory-builder.php:7604
+#@ directory-builder
+msgid "No"
+msgstr ""
+
+#: directory-builder.php:6677
+#@ directory-builder
+msgid "Renew"
+msgstr ""
+
+#: directory-builder.php:6683
+#@ directory-builder
+msgid "View"
+msgstr ""
+
+#: directory-builder.php:6686
+#@ directory-builder
+msgid "Preview"
+msgstr ""
+
+#: directory-builder.php:6701
+#@ directory-builder
+msgid "Delete"
+msgstr ""
+
+#: directory-builder.php:6725
+#@ directory-builder
+msgid "See all listings"
+msgstr ""
+
+#: directory-builder.php:6750
+#@ directory-builder
+msgid "Favorites"
+msgstr ""
+
+#: directory-builder.php:6753
+#@ directory-builder
+msgid "See all favorites"
+msgstr ""
+
+#: directory-builder.php:6775
+#@ directory-builder
+msgid "My profile"
+msgstr ""
+
+#: directory-builder.php:6795
+#@ directory-builder
+msgid "Save"
+msgstr ""
+
+#: directory-builder.php:6851
+#@ directory-builder
+msgid "ZIP file is not a valid Directory builder theme file."
+msgstr ""
+
+#: directory-builder.php:6856
+#@ directory-builder
+msgid "Could not create themes directory."
+msgstr ""
+
+#: directory-builder.php:6863
+#, php-format
+#@ directory-builder
+msgid "Could not remove previous theme directory \"%s\"."
+msgstr ""
+
+#: directory-builder.php:6868
+#@ directory-builder
+msgid "Could not move new theme into theme directory."
+msgstr ""
+
+#: directory-builder.php:6880
+#@ directory-builder
+msgid "This is not a valid Directory builder plugin theme!"
+msgstr ""
+
+#: directory-builder.php:6943
+#@ directory-builder
+msgid "No name"
+msgstr ""
+
+#: directory-builder.php:6945
+#@ directory-builder
+msgid "Active"
+msgstr ""
+
+#: directory-builder.php:6947
+#@ directory-builder
+msgid "Activate"
+msgstr ""
+
+#: directory-builder.php:6957
+#@ directory-builder
+msgid "Version"
+msgstr ""
+
+#: directory-builder.php:6964
+#@ directory-builder
+msgid "Updated"
+msgstr ""
+
+#: directory-builder.php:7077
+#@ directory-builder
+msgid "Username or email address"
+msgstr ""
+
+#: directory-builder.php:7087
+#@ directory-builder
+msgid "Nice to see you back"
+msgstr ""
+
+#: directory-builder.php:7087
+#@ directory-builder
+msgid "Not you?"
+msgstr ""
+
+#: directory-builder.php:7087
+#@ directory-builder
+msgid "Logout"
+msgstr ""
+
+#: directory-builder.php:7098
+#@ directory-builder
+msgid "ERROR"
+msgstr ""
+
+#: directory-builder.php:7100
+#@ directory-builder
+msgid "You are successfully registered and will shortly receive a confirmation email!"
+msgstr ""
+
+#: directory-builder.php:7134
+#: template/single-listings.php:47
+#@ directory-builder
+#@ whitelab
+msgid "Register"
+msgstr ""
+
+#: directory-builder.php:7274
+#@ directory-builder
+msgid "Featured"
+msgstr ""
+
+#: directory-builder.php:7432
+#@ directory-builder
+msgid "Directory builder search"
+msgstr ""
+
+#: directory-builder.php:7436
+#: directory-builder.php:7445
+#: directory-builder.php:7454
+#: directory-builder.php:7463
+#: directory-builder.php:7472
+#@ directory-builder
+msgid "by Directory builder"
+msgstr ""
+
+#: directory-builder.php:7441
+#@ directory-builder
+msgid "Directory builder add listing"
+msgstr ""
+
+#: directory-builder.php:7450
+#@ directory-builder
+msgid "Directory builder author dashboard"
+msgstr ""
+
+#: directory-builder.php:7459
+#@ directory-builder
+msgid "Directory builder login"
+msgstr ""
+
+#: directory-builder.php:7468
+#@ directory-builder
+msgid "Directory builder register"
+msgstr ""
+
+#: directory-builder.php:7490
+#@ directory-builder
+msgid "Number of listings this user can claim."
+msgstr ""
+
+#: directory-builder.php:7663
+#@ directory-builder
+msgid "Couldn't find Authorize.Net"
+msgstr ""
+
+#: directory-builder.php:7669
+#@ directory-builder
+msgid "There was an issue while saving your billing information!"
+msgstr ""
+
+#: directory-builder.php:7768
+#, php-format
+#@ directory-builder
+msgid "There's no listing found with ID %d"
+msgstr ""
+
+#: directory-builder.php:7866
+#@ directory builder
+msgid "INVOICE"
+msgstr ""
+
+#: directory-builder.php:7892
+#@ directory-builder
+msgid "There's no valid data to display!"
+msgstr ""
+
+#: directory-builder.php:7899
+#, php-format
+#@ directory-builder
+msgid "Invoice date:           %s"
+msgstr ""
+
+#: directory-builder.php:7901
+#, php-format
+#@ directory-builder
+msgid "Order date:             %s"
+msgstr ""
+
+#: directory-builder.php:7903
+#, php-format
+#@ directory-builder
+msgid "Payment method:   %s"
+msgstr ""
+
+#: directory-builder.php:7906
+#@ directory-builder
+msgid "Description"
+msgstr ""
+
+#: directory-builder.php:7906
+#@ directory-builder
+msgid "Price"
+msgstr ""
+
+#: directory-builder.php:7912
+#@ directory-builder
+msgid "Subtotal:"
+msgstr ""
+
+#: directory-builder.php:7959
+#, php-format
+#@ directory-builder
+msgid "Payment for listing - %s"
+msgstr ""
+
+#: directory-builder.php:7961
+#, php-format
+#@ directory-builder
+msgid "Refund for listing - %s"
+msgstr ""
+
+#: directory-builder.php:8008
+#: template/single-listings.php:417
+#@ directory-builder
+#@ whitelab
+msgid "Monday"
+msgstr ""
+
+#: directory-builder.php:8009
+#: template/single-listings.php:418
+#@ directory-builder
+#@ whitelab
+msgid "Tuesday"
+msgstr ""
+
+#: directory-builder.php:8010
+#: template/single-listings.php:419
+#@ directory-builder
+#@ whitelab
+msgid "Wednesday"
+msgstr ""
+
+#: directory-builder.php:8011
+#: template/single-listings.php:420
+#@ directory-builder
+#@ whitelab
+msgid "Thursday"
+msgstr ""
+
+#: directory-builder.php:8012
+#: template/single-listings.php:421
+#@ directory-builder
+#@ whitelab
+msgid "Friday"
+msgstr ""
+
+#: directory-builder.php:8013
+#: template/single-listings.php:422
+#@ directory-builder
+#@ whitelab
+msgid "Saturday"
+msgstr ""
+
+#: directory-builder.php:8014
+#: template/single-listings.php:423
+#@ directory-builder
+#@ whitelab
+msgid "Sunday"
+msgstr ""
+
+#: directory-builder.php:8041
+#: template/single-listings.php:439
+#@ directory-builder
+#@ whitelab
+msgid "Closed"
+msgstr ""
+
+#: directory-builder.php:8157
+#@ directory-builder
+msgid "Warning"
+msgstr ""
+
+#: directory-builder.php:8157
+#@ directory-builder
+msgid "It has been found more than one reCAPTCHA in current form. In this case reCAPTCHA will not work properly. Please remove all unnecessary reCAPTCHA blocks."
+msgstr ""
+
+#: directory-builder.php:8161
+#@ directory-builder
+msgid "Error: You have entered an incorrect reCAPTCHA value"
+msgstr ""
+
+#: includes/class-db-functionality-activator.php:636
+#@ directory-builder
+msgid "Listing author"
+msgstr ""
+
+#: includes/file_system.php:115
+#, php-format
+#@ directory-builder
+msgctxt "fs helper"
+msgid "Destination dir \"%s\" is not writable."
+msgstr ""
+
+#: public/class-db-functionality-public.php:134
+#@ directory-builder
+msgid "of"
+msgstr ""
+
+#. translators: %s: post title
+#: template/single-listing-ratings.php:31
+#, php-format
+#@ directory-builder
+msgctxt "comments title"
+msgid "One rating for &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: template/single-listing-ratings.php:36
+#, php-format
+#@ directory-builder
+msgctxt "comments title"
+msgid "%1$s rating for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s ratings for &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template/single-listing-ratings.php:70
+#@ directory-builder
+msgid "Ratings are closed."
+msgstr ""
+
+#: template/single-listing-ratings.php:76
+#@ directory-builder
+msgid "Rate here:"
+msgstr ""
+
+#: template/single-listing-ratings.php:96
+#@ directory-builder
+msgid "Write a review"
+msgstr ""
+
+#: template/single-listing-ratings.php:98
+#@ directory-builder
+msgid "Publish"
+msgstr ""
+
+#: template/single-listing-ratings.php:99
+#@ directory-builder
+msgid "Your experience"
+msgstr ""
+
+#: template/single-listings.php:39
+#@ whitelab
+msgid "Claim a listing"
+msgstr ""
+
+#: template/single-listings.php:40
+#@ whitelab
+msgid "You need to login in order to claim a listing."
+msgstr ""
+
+#: template/single-listings.php:43
+#@ whitelab
+msgid "Login"
+msgstr ""
+
+#: template/single-listings.php:70
+#@ whitelab
+msgid "Listing packages"
+msgstr ""
+
+#: template/single-listings.php:109
+#@ whitelab
+msgid "Listing sticky?"
+msgstr ""
+
+#: template/single-listings.php:124
+#@ whitelab
+msgid "Sticky listing"
+msgstr ""
+
+#: template/single-listings.php:146
+#, php-format
+#@ whitelab
+msgid "You have reached your claimed listing limit, for more information contact site <a href=\"mailto:%s\">administrator</a>"
+msgstr ""
+
+#: template/single-listings.php:181
+#@ whitelab
+msgid "Favorite"
+msgstr ""
+
+#: template/single-listings.php:181
+#@ whitelab
+msgid "Favorited"
+msgstr ""
+
+#: template/single-listings.php:234
+#@ whitelab
+msgid "Additional information"
+msgstr ""
+
+#: template/single-listings.php:340
+#@ whitelab
+msgid "Get directions"
+msgstr ""
+
+#: template/single-listings.php:364
+#@ whitelab
+msgid "Contact details"
+msgstr ""
+
+#: template/single-listings.php:392
+#@ whitelab
+msgid "Please don't hesitate to send us a message!"
+msgstr ""
+
+#: template/single-listings.php:396
+#@ whitelab
+msgid "Message"
+msgstr ""
+
+#: template/single-listings.php:409
+#@ whitelab
+msgid "Opening hours"
+msgstr ""
+
+#: template/single-listings.php:452
+#@ whitelab
+msgid "We are open 24/7 365 days a year."
+msgstr ""
+
+#: template/single-listings.php:464
+#@ whitelab
+msgid "Claim your business listing on Whitelab."
+msgstr ""
+
+#: template/single-listings.php:464
+#@ whitelab
+msgid "Claim my business."
+msgstr ""
+
+#: template/single-listings.php:468
+#@ whitelab
+msgid "You have claimed this listing!"
+msgstr ""
+
+#: template/single-listings.php:472
+#@ whitelab
+msgid "Your claim is waiting for approval!"
+msgstr ""
+

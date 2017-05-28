@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-947.000000, -504.000000)" fill="#BDC2C7">
+            <g id="Search-bar" transform="translate(317.000000, 473.000000)">
+                <polyline id="Triangle" points="634.802499 36.3846154 640 31 630 31 634.802499 36.3846154"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,386 @@
+/*
+Theme Name: WhiteLab 1.0
+Description: Used to style the TinyMCE editor.
+*/
+
+body .hidden {
+	display: none;
+}
+
+.whitelab-custom-select {
+	height: auto;
+}
+
+.layouts img {
+	border: 2px solid #f5f5f5;
+	border-radius: 6px;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+ .layouts .selected, .layouts img:hover {
+	border: 2px solid #21759B;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(0%);
+}
+
+.directory-rating-notice {
+	background: #fff;
+	border-top: 4px;
+	display: block;
+	min-height: 68px;
+	position: relative;
+	margin: 40px 20px 0 2px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border: 1px solid #ccc;
+}
+
+.directory-notice-left {
+	float: left;
+	width: 5%;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.directory-notice-left img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.directory-notice-center {
+	width: 75%;
+	float: left;
+	padding: 23px 6px;
+	box-sizing: border-box;
+}
+
+.directory-notice-right {
+	width: 20%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 85px;
+	border-left: 1px solid #ccc;
+	margin-top: 0;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.directory-notice-center p {
+	margin: 0;
+}
+
+.directory-notice-right a {
+	float: none;
+	margin-top: 17px !important;
+	display: inline-block !important;
+}
+
+.directory-notice-right .directory-rating-dismiss {
+	margin-left: 10px;
+}
+
+.directory-rating-notice .clearfix:before,
+.directory-rating-notice .clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.directory-rating-notice .clearfix:after {
+	clear: both;
+}
+
+/* Installer */
+.customizer-welcome-message {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 380px;
+	width: 400px;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.8);
+	background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0.4)));
+	background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0.4) 100%);
+	background: -o-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0.4) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0.4) 100%);
+	background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0.4) 100%);
+	content: "";
+}
+
+.customizer-welcome-message .content {
+	color: #CBC9C9;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 10%;
+	width: 280px;
+}
+
+.customizer-welcome-message .content h1,
+.customizer-welcome-message .content h2 {
+	font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+	font-size: 50px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	font-weight: 300;
+	color: #fff;
+}
+
+.customizer-welcome-message .content h2 {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.customizer-welcome-message .close-message {
+	margin-top: 20px;
+}
+
+/***********/
+
+.vhadmin-icon-checkmark {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.vhadmin-icon-checkmark:before {
+	content: "\e000";
+}
+
+.vhman-message {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow:inset 0 0 35px rgba(0,0,0,0.005);
+	-webkit-box-shadow:inset 0 0 35px rgba(0,0,0,0.005);
+	box-shadow:inset 0 0 35px rgba(0,0,0,0.005);
+	background:#FFF url(../images/theme-installer-image.jpg) no-repeat -10% 140px !important;
+	-webkit-background-size: 33% auto !important;
+	background-size: 32% auto !important;
+
+	border:2px solid #43B5E7!important;
+	overflow:hidden;
+	margin-top: 15px!important;
+	padding:10px 0!important;
+	position:relative;
+	z-index:1;
+}
+
+.vhman-message .message-container
+{
+	margin:0 auto;
+	max-width:960px;
+	overflow:hidden;
+	padding: 40px 10px  40px 30%;
+	text-align:left;
+}
+
+.vhman-message .before-header {
+	margin-bottom: 20px;
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	color: #AFAFAF;
+}
+
+.vhman-message  h4,
+.vhman-message  h5
+{
+	color:#232627;
+	font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+	margin:5px 10px 5px 0;
+	vertical-align:middle;
+
+	font-weight: 200;
+	font-size: 26px;
+	line-height:  1.125;
+}
+
+.vhman-message h5 {
+	font-size: 16px;
+	line-height: 1.2;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.vhman-message .submit {
+	margin: 0;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.vhman-message .step {
+	position: absolute;
+	font-size: 19px;
+	line-height: 19px;
+	float: left;
+	display: inline-block;
+	font-weight: 200;
+	margin-right: 20px;
+	margin-top: 2px;
+	border: 1px solid #EEE;
+	border-radius: 200px;
+	padding: 6px;
+
+	min-width: 19px;
+	text-align: center;
+}
+
+.vhman-message .submit .customspinner {
+	position: absolute;
+	top: 10px;
+	left: 8px;
+	display: none;
+}
+
+.vhman-message .submit.loading .number {
+	opacity: 0;
+}
+
+.vhman-message .submit.loading .customspinner {
+	display: block;
+}
+
+.vhman-message .error {
+	display: inline-block;
+	padding: 4px 10px;
+	background: rgba(255, 0, 0, 0.09);
+	border-radius: 3px;
+	margin-top: 10px;
+	margin-left: 50px;
+	border: solid 1px #FCB6AC;
+}
+
+/* Special design for completed steps */
+
+.vhman-message .step-completed .step {
+	background: #43B5E7;
+	border-color: #43B5E7;
+	color: #FFF;
+}
+
+.vhman-message .step-completed .step .number {
+	display: none;
+}
+
+.vhman-message .step-completed .step:after {
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: "✓";
+}
+
+.vhman-message .step-completed .step-body,
+.vhman-message .step-inactive .step-body {
+	opacity: .4;
+}
+
+.vhman-message .step-body {
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.vhman-message .step-description {
+	display: inline-block;
+	max-width: 300px;
+	margin-top: -4px;
+}
+
+.vhman-message .button {
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-right: 20px;
+	/*margin-bottom: 10px;*/
+	line-height: 32px!important;
+	height: 35px;
+
+	vertical-align: top!important;
+	text-decoration: none!important;
+
+	min-width: 200px;
+	text-align: center;
+}
+
+.vhman-message .action-skip {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.vhman-message .skip.button-primary {
+	opacity: .75;
+	background: #FFF;
+	border-color: #D3D3D3;
+	color: #9DA3A5;
+	text-shadow: none;
+	box-shadow: none;
+
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px!important;
+}
+
+@media screen and (min-width: 1700px) {
+	.vhman-message {
+		background-position: 0% 60px!important;
+	}
+}
+
+.error-log-window {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+/* TGMPA */
+
+.tgmpa-error-message {
+	display: block;
+	margin: 0.5em 0.5em 0 0;
+	clear: both;
+}
+
+.tgmpa-show-version {
+	float: right;
+	padding: 0em 1.5em 0.5em 0;
+}
+
+.tgmpa-plugin-details {
+	min-width: 32px;
+	text-align: right;
+	float: right;
+}
+
+.tgmpa > h2 {
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+	padding: 9px 15px 4px 0;
+}
+
+.tgmpa > .update-php {
+	width: 100%;
+	height: 98%;
+	min-height: 850px;
+	padding-top: 1px;
+}

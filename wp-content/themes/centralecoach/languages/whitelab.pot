@@ -1,0 +1,1869 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhiteLab v2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-05-03 13:34:00+0000\n"
+"Last-Translator: smaids-2-2 <smaids2007@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ whitelab
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+#@ whitelab
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:27
+#, php-format
+#@ whitelab
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+#@ whitelab
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:30
+#@ whitelab
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+#@ whitelab
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:33
+#@ whitelab
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:36
+#@ whitelab
+msgid "Asides"
+msgstr ""
+
+#: archive.php:39
+#@ whitelab
+msgid "Images"
+msgstr ""
+
+#: archive.php:42
+#@ whitelab
+msgid "Videos"
+msgstr ""
+
+#: archive.php:45
+#@ whitelab
+msgid "Audio"
+msgstr ""
+
+#: archive.php:48
+#@ whitelab
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:51
+#@ whitelab
+msgid "Links"
+msgstr ""
+
+#: archive.php:54
+#@ whitelab
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:57
+#@ whitelab
+msgid "Archives"
+msgstr ""
+
+#: author.php:28
+#@ whitelab
+msgid "Author: "
+msgstr ""
+
+#: category.php:16
+#, php-format
+#@ whitelab
+msgid "Category Archives: <span>%s</span>"
+msgstr ""
+
+#: comments.php:28
+#@ whitelab
+msgid "Comments"
+msgstr ""
+
+#: comments.php:34
+#: comments.php:53
+#@ whitelab
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:54
+#@ whitelab
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:55
+#@ whitelab
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+#@ whitelab
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:66
+#: comments.php:68
+#@ whitelab
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:68
+#@ whitelab
+msgid "Name *"
+msgstr ""
+
+#: comments.php:68
+#@ whitelab
+msgid "E-mail *"
+msgstr ""
+
+#: comments.php:68
+#@ whitelab
+msgid "Website"
+msgstr ""
+
+#: comments.php:75
+#@ whitelab
+msgid "Leave your comment"
+msgstr ""
+
+#: comments.php:77
+#@ whitelab
+msgid "Post Comment"
+msgstr ""
+
+#: content-none.php:12
+#@ whitelab
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:18
+#, php-format
+#@ whitelab
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:22
+#@ whitelab
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:27
+#@ whitelab
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:21
+#: content.php:199
+#@ whitelab
+msgid "Pages:"
+msgstr ""
+
+#: content.php:69
+#@ whitelab
+msgid "Read article"
+msgstr ""
+
+#: content.php:71
+#@ whitelab
+msgid "by"
+msgstr ""
+
+#: content.php:93
+#@ whitelab
+msgid "by "
+msgstr ""
+
+#: content.php:95
+#, php-format
+#@ whitelab
+msgid "%s / %s"
+msgstr ""
+
+#: content.php:158
+#@ whitelab
+msgid "Next post"
+msgstr ""
+
+#: content.php:196
+#@ whitelab
+msgid "Continue reading"
+msgstr ""
+
+#: directory-template/search-listing-item.php:51
+#@ whitelab
+msgid "Featured"
+msgstr ""
+
+#: directory-template/search-listing-item.php:54
+#: directory-template/single-listings.php:192
+#, php-format
+#@ whitelab
+msgid "You have to be logged in to favorite, click %s to login"
+msgstr ""
+
+#: directory-template/search-listing-item.php:54
+#: directory-template/single-listings.php:192
+#@ whitelab
+msgid "here"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:41
+#: functions.php:978
+#@ whitelab
+msgid "Pingback:"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:41
+#: directory-template/single-listing-ratings.php:61
+#: functions.php:978
+#: functions.php:996
+#: image.php:34
+#@ whitelab
+msgid "Edit"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:59
+#@ whitelab
+msgid "Your review is awaiting moderation."
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:66
+#, php-format
+#@ whitelab
+msgid "%s on %s at %s"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:94
+#@ whitelab
+msgid "Reviews"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:119
+#@ whitelab
+msgid "Ratings are closed."
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:146
+#@ whitelab
+msgid "Your rating"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:160
+#@ whitelab
+msgid "Leave your review"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:162
+#@ whitelab
+msgid "Publish"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:163
+#@ whitelab
+msgid "Title of your review *"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:163
+#@ whitelab
+msgid "Your name *"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:163
+#@ whitelab
+msgid "Your email *"
+msgstr ""
+
+#: directory-template/single-listing-ratings.php:163
+#@ whitelab
+msgid "Your review *"
+msgstr ""
+
+#: directory-template/single-listings.php:48
+#@ whitelab
+msgid "Claim a listing"
+msgstr ""
+
+#: directory-template/single-listings.php:49
+#@ whitelab
+msgid "You need to login in order to claim a listing."
+msgstr ""
+
+#: directory-template/single-listings.php:52
+#@ whitelab
+msgid "Login"
+msgstr ""
+
+#: directory-template/single-listings.php:56
+#: header.php:197
+#@ whitelab
+msgid "Register"
+msgstr ""
+
+#: directory-template/single-listings.php:79
+#@ whitelab
+msgid "Listing packages"
+msgstr ""
+
+#: directory-template/single-listings.php:107
+#@ whitelab
+msgid "forever"
+msgstr ""
+
+#: directory-template/single-listings.php:109
+#@ whitelab
+msgid "days"
+msgstr ""
+
+#: directory-template/single-listings.php:115
+#@ whitelab
+msgid "Package price"
+msgstr ""
+
+#: directory-template/single-listings.php:116
+#: directory-template/single-listings.php:130
+#@ whitelab
+msgid "Run listing for"
+msgstr ""
+
+#: directory-template/single-listings.php:117
+#: directory-template/single-listings.php:131
+#@ whitelab
+msgid "Images allowed"
+msgstr ""
+
+#: directory-template/single-listings.php:118
+#@ whitelab
+msgid "Listing sticky?"
+msgstr ""
+
+#: directory-template/single-listings.php:127
+#@ whitelab
+msgid "Free"
+msgstr ""
+
+#: directory-template/single-listings.php:129
+#@ whitelab
+msgid "One Time Payment"
+msgstr ""
+
+#: directory-template/single-listings.php:133
+#@ whitelab
+msgid "Sticky listing"
+msgstr ""
+
+#: directory-template/single-listings.php:136
+#@ whitelab
+msgid "Choose"
+msgstr ""
+
+#: directory-template/single-listings.php:155
+#, php-format
+#@ whitelab
+msgid "You have reached your claimed listing limit, for more information contact site <a href=\"mailto:%s\">administrator</a>"
+msgstr ""
+
+#: directory-template/single-listings.php:190
+#@ whitelab
+msgid "Favorite"
+msgstr ""
+
+#: directory-template/single-listings.php:190
+#@ whitelab
+msgid "Favorited"
+msgstr ""
+
+#: directory-template/single-listings.php:198
+#@ whitelab
+msgid "Share"
+msgstr ""
+
+#: directory-template/single-listings.php:264
+#@ whitelab
+msgid "Additional information"
+msgstr ""
+
+#: directory-template/single-listings.php:361
+#@ whitelab
+msgid "Get directions"
+msgstr ""
+
+#: directory-template/single-listings.php:385
+#@ whitelab
+msgid "Contact details"
+msgstr ""
+
+#: directory-template/single-listings.php:411
+#@ whitelab
+msgid "Please don't hesitate to"
+msgstr ""
+
+#: directory-template/single-listings.php:411
+#@ whitelab
+msgid "contact us"
+msgstr ""
+
+#: directory-template/single-listings.php:415
+#@ whitelab
+msgid "Send us a message"
+msgstr ""
+
+#: directory-template/single-listings.php:416
+#@ whitelab
+msgid "Name"
+msgstr ""
+
+#: directory-template/single-listings.php:417
+#@ whitelab
+msgid "Email"
+msgstr ""
+
+#: directory-template/single-listings.php:419
+#@ whitelab
+msgid "Message"
+msgstr ""
+
+#: directory-template/single-listings.php:432
+#@ whitelab
+msgid "Opening hours"
+msgstr ""
+
+#: directory-template/single-listings.php:440
+#@ whitelab
+msgid "Monday"
+msgstr ""
+
+#: directory-template/single-listings.php:441
+#@ whitelab
+msgid "Tuesday"
+msgstr ""
+
+#: directory-template/single-listings.php:442
+#@ whitelab
+msgid "Wednesday"
+msgstr ""
+
+#: directory-template/single-listings.php:443
+#@ whitelab
+msgid "Thursday"
+msgstr ""
+
+#: directory-template/single-listings.php:444
+#@ whitelab
+msgid "Friday"
+msgstr ""
+
+#: directory-template/single-listings.php:445
+#@ whitelab
+msgid "Saturday"
+msgstr ""
+
+#: directory-template/single-listings.php:446
+#@ whitelab
+msgid "Sunday"
+msgstr ""
+
+#: directory-template/single-listings.php:473
+#@ whitelab
+msgid "Closed"
+msgstr ""
+
+#: directory-template/single-listings.php:488
+#@ whitelab
+msgid "We are open 24/7 365 days a year."
+msgstr ""
+
+#: directory-template/single-listings.php:501
+#, php-format
+#@ whitelab
+msgid "Claim your business listing on %s."
+msgstr ""
+
+#: directory-template/single-listings.php:501
+#@ whitelab
+msgid "Claim my business."
+msgstr ""
+
+#: directory-template/single-listings.php:505
+#@ whitelab
+msgid "You have claimed this listing!"
+msgstr ""
+
+#: directory-template/single-listings.php:509
+#@ whitelab
+msgid "Your claim is waiting for approval!"
+msgstr ""
+
+#: functions/admin/metaboxes/layouts.php:8
+#@ whitelab
+msgid "Layouts"
+msgstr ""
+
+#: functions/admin/metaboxes/layouts.php:15
+#@ whitelab
+msgid "Layout type"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:327
+#: functions.php:897
+#@ whitelab
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:328
+#: functions.php:898
+#@ whitelab
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:330
+#: functions.php:899
+#, php-format
+#@ whitelab
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:332
+#, php-format
+#@ whitelab
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:333
+#: functions.php:900
+#@ whitelab
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: functions/tgm-activation/class-tgm-plugin-activation.php:336
+#: functions.php:901
+#, php-format
+#@ whitelab
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/tgm-activation/class-tgm-plugin-activation.php:342
+#: functions.php:902
+#, php-format
+#@ whitelab
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/tgm-activation/class-tgm-plugin-activation.php:348
+#: functions.php:907
+#, php-format
+#@ whitelab
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/tgm-activation/class-tgm-plugin-activation.php:354
+#, php-format
+#@ whitelab
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/tgm-activation/class-tgm-plugin-activation.php:360
+#: functions.php:904
+#, php-format
+#@ whitelab
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/tgm-activation/class-tgm-plugin-activation.php:366
+#: functions.php:905
+#, php-format
+#@ whitelab
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:371
+#: functions.php:909
+#@ whitelab
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:376
+#@ whitelab
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:381
+#@ whitelab
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:385
+#: functions.php:911
+#@ whitelab
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:386
+#: functions/tgm-activation/class-tgm-plugin-activation.php:829
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2543
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3588
+#@ whitelab
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:387
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3168
+#: functions.php:912
+#@ whitelab
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:390
+#, php-format
+#@ whitelab
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:392
+#, php-format
+#@ whitelab
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:394
+#, php-format
+#@ whitelab
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:395
+#@ whitelab
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:396
+#@ whitelab
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:397
+#@ whitelab
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:524
+#@ whitelab
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:525
+#@ whitelab
+msgid "Update Required"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:936
+#@ whitelab
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:936
+#: functions/tgm-activation/class-tgm-plugin-activation.php:939
+#@ whitelab
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:939
+#@ whitelab
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:1129
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2957
+#@ whitelab
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: functions/tgm-activation/class-tgm-plugin-activation.php:1994
+#, php-format
+#@ whitelab
+msgid "TGMPA v%s"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2285
+#@ whitelab
+msgid "Required"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2288
+#@ whitelab
+msgid "Recommended"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2304
+#@ whitelab
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2307
+#@ whitelab
+msgid "External Source"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2310
+#@ whitelab
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2327
+#@ whitelab
+msgid "Not Installed"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2331
+#@ whitelab
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2333
+#@ whitelab
+msgid "Active"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2339
+#@ whitelab
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2342
+#@ whitelab
+msgid "Requires Update"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2345
+#@ whitelab
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2354
+#, php-format
+#@ whitelab
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2400
+#, php-format
+#@ whitelab
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2404
+#, php-format
+#@ whitelab
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2408
+#, php-format
+#@ whitelab
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2412
+#, php-format
+#@ whitelab
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2494
+#@ whitelab
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2502
+#@ whitelab
+msgid "Installed version:"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2509
+#@ whitelab
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2521
+#@ whitelab
+msgid "Available version:"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2543
+#@ whitelab
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2556
+#@ whitelab
+msgid "Plugin"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2557
+#@ whitelab
+msgid "Source"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2558
+#@ whitelab
+msgid "Type"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2562
+#@ whitelab
+msgid "Version"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2563
+#@ whitelab
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2612
+#, php-format
+#@ whitelab
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2617
+#, php-format
+#@ whitelab
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2623
+#, php-format
+#@ whitelab
+msgid "Activate %2$s"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2693
+#@ whitelab
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2726
+#@ whitelab
+msgid "Install"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2732
+#@ whitelab
+msgid "Update"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2735
+#@ whitelab
+msgid "Activate"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2766
+#@ whitelab
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2768
+#@ whitelab
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2809
+#@ whitelab
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2811
+#@ whitelab
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2917
+#@ whitelab
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2943
+#@ whitelab
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: functions/tgm-activation/class-tgm-plugin-activation.php:2961
+#: functions/tgm-activation/class-tgm-plugin-activation.php:388
+#@ whitelab
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3167
+#@ whitelab
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3507
+#, php-format
+#@ whitelab
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3510
+#, php-format
+#@ whitelab
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3512
+#, php-format
+#@ whitelab
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3516
+#@ whitelab
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3518
+#, php-format
+#@ whitelab
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3518
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3526
+#@ whitelab
+msgid "Show Details"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3518
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3526
+#@ whitelab
+msgid "Hide Details"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3519
+#@ whitelab
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3521
+#, php-format
+#@ whitelab
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3524
+#@ whitelab
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3526
+#, php-format
+#@ whitelab
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3527
+#@ whitelab
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/tgm-activation/class-tgm-plugin-activation.php:3529
+#, php-format
+#@ whitelab
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions.php:115
+#@ whitelab
+msgid "Top primary menu"
+msgstr ""
+
+#: functions.php:116
+#@ whitelab
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:173
+#@ whitelab
+msgid "Your account is pending validation!"
+msgstr ""
+
+#: functions.php:180
+#@ whitelab
+msgid "Welcome back, "
+msgstr ""
+
+#: functions.php:191
+#@ whitelab
+msgid "You' re already logged in!"
+msgstr ""
+
+#: functions.php:208
+#@ whitelab
+msgid "You failed the captcha test!"
+msgstr ""
+
+#: functions.php:240
+#@ whitelab
+msgid "header modal dialog"
+msgstr ""
+
+#: functions.php:243
+#@ whitelab
+msgid "You are successfully registered and will shortly receive a confirmation email!"
+msgstr ""
+
+#: functions.php:248
+#@ whitelab
+msgid "Your password did not match!"
+msgstr ""
+
+#: functions.php:260
+#@ whitelab
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr ""
+
+#: functions.php:264
+#@ whitelab
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: functions.php:278
+#@ whitelab
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+
+#: functions.php:293
+#@ whitelab
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: functions.php:295
+#, php-format
+#@ whitelab
+msgid "Username: %s"
+msgstr ""
+
+#: functions.php:296
+#@ whitelab
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: functions.php:297
+#@ whitelab
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: functions.php:306
+#, php-format
+#@ whitelab
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: functions.php:313
+#@ whitelab
+msgid "The email could not be sent, possible reason might be that your host may have disabled the mail() function."
+msgstr ""
+
+#: functions.php:315
+#@ whitelab
+msgid "A password reset link is sent to your email!"
+msgstr ""
+
+#: functions.php:361
+#@ whitelab
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:363
+#: functions.php:372
+#: functions.php:381
+#@ whitelab
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: functions.php:370
+#@ whitelab
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:379
+#@ whitelab
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: functions.php:535
+#@ whitelab
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:536
+#@ whitelab
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:813
+#@ whitelab
+msgid "Easy Testimonials"
+msgstr ""
+
+#: functions.php:822
+#@ whitelab
+msgid "Functionality for Directory theme"
+msgstr ""
+
+#: functions.php:832
+#@ whitelab
+msgid "MailPoet Newsletters"
+msgstr ""
+
+#: functions.php:841
+#@ whitelab
+msgid "Directory builder"
+msgstr ""
+
+#: functions.php:850
+#@ whitelab
+msgid "Slider Revolution"
+msgstr ""
+
+#: functions.php:860
+#@ whitelab
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: functions.php:870
+#@ whitelab
+msgid "Google Captcha (reCAPTCHA) by BestWebSoft"
+msgstr ""
+
+#: functions.php:903
+#, php-format
+#@ whitelab
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:906
+#, php-format
+#@ whitelab
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:908
+#, php-format
+#@ whitelab
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:910
+#@ whitelab
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:913
+#, php-format
+#@ whitelab
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:930
+#, php-format
+#@ whitelab
+msgid "Hi there, %s, we noticed that you've been using WhiteLab for a while now."
+msgstr ""
+
+#: functions.php:931
+#@ whitelab
+msgid "We spent many hours developing this theme for you and we would appriciate if you supported us by rating it!"
+msgstr ""
+
+#: functions.php:934
+#@ whitelab
+msgid "Rate at ThemeForest"
+msgstr ""
+
+#: functions.php:935
+#@ whitelab
+msgid "No, thanks"
+msgstr ""
+
+#: functions.php:994
+#@ whitelab
+msgid "Reply"
+msgstr ""
+
+#: functions.php:999
+#@ whitelab
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1023
+#@ whitelab
+msgid "Primary font"
+msgstr ""
+
+#: functions.php:1024
+#@ whitelab
+msgid "This is your sites primary font"
+msgstr ""
+
+#: functions.php:1033
+#@ whitelab
+msgid "Single listing/post intro font"
+msgstr ""
+
+#: functions.php:1043
+#@ whitelab
+msgid "Heading H1"
+msgstr ""
+
+#: functions.php:1044
+#@ whitelab
+msgid "All heading H1 fonts"
+msgstr ""
+
+#: functions.php:1053
+#@ whitelab
+msgid "Heading H2"
+msgstr ""
+
+#: functions.php:1054
+#@ whitelab
+msgid "All heading H2 fonts"
+msgstr ""
+
+#: functions.php:1063
+#@ whitelab
+msgid "Heading H3"
+msgstr ""
+
+#: functions.php:1064
+#@ whitelab
+msgid "All heading H3 fonts"
+msgstr ""
+
+#: functions.php:1073
+#@ whitelab
+msgid "Heading H4"
+msgstr ""
+
+#: functions.php:1074
+#@ whitelab
+msgid "All heading H4 fonts"
+msgstr ""
+
+#: functions.php:1083
+#@ whitelab
+msgid "Heading H5"
+msgstr ""
+
+#: functions.php:1084
+#@ whitelab
+msgid "All heading H5 fonts"
+msgstr ""
+
+#: functions.php:1093
+#@ whitelab
+msgid "Heading H6"
+msgstr ""
+
+#: functions.php:1094
+#@ whitelab
+msgid "All heading H6 fonts"
+msgstr ""
+
+#: functions.php:1103
+#@ whitelab
+msgid "Normal links"
+msgstr ""
+
+#: functions.php:1104
+#@ whitelab
+msgid "This is your sites links font"
+msgstr ""
+
+#: functions.php:1113
+#@ whitelab
+msgid "Single listing side title"
+msgstr ""
+
+#: functions.php:1114
+#@ whitelab
+msgid "Your sites single listing side title font"
+msgstr ""
+
+#: functions.php:1123
+#@ whitelab
+msgid "Widget link font"
+msgstr ""
+
+#: functions.php:1124
+#@ whitelab
+msgid "This is your sites widgets link font"
+msgstr ""
+
+#: functions.php:1133
+#@ whitelab
+msgid "Open post/page title font"
+msgstr ""
+
+#: functions.php:1134
+#@ whitelab
+msgid "Your sites open post/page title font"
+msgstr ""
+
+#: functions.php:1143
+#@ whitelab
+msgid "Open listing/post title font"
+msgstr ""
+
+#: functions.php:1144
+#@ whitelab
+msgid "Your sites open listing/post title font"
+msgstr ""
+
+#: functions.php:1153
+#@ whitelab
+msgid "WhiteLab module title"
+msgstr ""
+
+#: functions.php:1163
+#@ whitelab
+msgid "WhiteLab module background title"
+msgstr ""
+
+#: functions.php:1173
+#@ whitelab
+msgid "WhiteLab featured listing title"
+msgstr ""
+
+#: functions.php:1183
+#@ whitelab
+msgid "WhiteLab featured listing text"
+msgstr ""
+
+#: functions.php:1193
+#@ whitelab
+msgid "WhiteLab city title"
+msgstr ""
+
+#: functions.php:1203
+#@ whitelab
+msgid "WhiteLab quote text"
+msgstr ""
+
+#: functions.php:1213
+#@ whitelab
+msgid "WhiteLab news text"
+msgstr ""
+
+#: functions.php:1223
+#@ whitelab
+msgid "WhiteLab news date"
+msgstr ""
+
+#: functions.php:1244
+#@ whitelab
+msgid "Fonts regenerated"
+msgstr ""
+
+#: header.php:87
+#@ whitelab
+msgid "Reset colors"
+msgstr ""
+
+#: header.php:93
+#@ whitelab
+msgid "Interactive Coloring"
+msgstr ""
+
+#: header.php:94
+#@ whitelab
+msgid "Drag any color from the left toolbar to an area or text in the page. A blue outline will indicate a droppable element."
+msgstr ""
+
+#: header.php:95
+#@ whitelab
+msgid "On mobile, wait a tiny bit until you drag the color drop."
+msgstr ""
+
+#: header.php:96
+#@ whitelab
+msgid "Got it!"
+msgstr ""
+
+#: header.php:106
+#@ whitelab
+msgid "Logo"
+msgstr ""
+
+#: header.php:115
+#@ whitelab
+msgid "Create a listing"
+msgstr ""
+
+#: header.php:117
+#@ whitelab
+msgid "My account"
+msgstr ""
+
+#: header.php:124
+#@ whitelab
+msgid "Sign in / Register"
+msgstr ""
+
+#: header.php:155
+#@ whitelab
+msgid "Get discovered"
+msgstr ""
+
+#: header.php:156
+#@ whitelab
+msgid "It has never been easier to reach clients."
+msgstr ""
+
+#: header.php:193
+#@ whitelab
+msgid "I agree to all statements in"
+msgstr ""
+
+#: header.php:193
+#@ whitelab
+msgid "terms and conditions"
+msgstr ""
+
+#: header.php:198
+#@ whitelab
+msgid "I'm already a member"
+msgstr ""
+
+#: header.php:203
+#: header.php:204
+#: header.php:216
+#: header.php:217
+#@ whitelab
+msgid "Username"
+msgstr ""
+
+#: header.php:207
+#: header.php:208
+#@ whitelab
+msgid "Password"
+msgstr ""
+
+#: header.php:210
+#@ whitelab
+msgid "Sign in"
+msgstr ""
+
+#: header.php:211
+#@ whitelab
+msgid "I'm not a member"
+msgstr ""
+
+#: header.php:219
+#@ whitelab
+msgid "Retrieve my password"
+msgstr ""
+
+#: header.php:220
+#@ whitelab
+msgid "I want to login"
+msgstr ""
+
+#: header.php:278
+#@ whitelab
+msgid "Listing name"
+msgstr ""
+
+#: header.php:279
+#@ whitelab
+msgid "What is it called"
+msgstr ""
+
+#: header.php:293
+#: inc/customizer.php:281
+#@ whitelab
+msgid "Categories"
+msgstr ""
+
+#: header.php:294
+#@ whitelab
+msgid "Category"
+msgstr ""
+
+#: header.php:298
+#: header.php:331
+#: search.php:14
+#@ whitelab
+msgid "Search"
+msgstr ""
+
+#: header.php:318
+#@ whitelab
+msgid "What are you looking for?"
+msgstr ""
+
+#: header.php:319
+#@ whitelab
+msgid "Keyword"
+msgstr ""
+
+#: header.php:323
+#@ whitelab
+msgid "Location"
+msgstr ""
+
+#: inc/back-compat.php:41
+#: inc/back-compat.php:53
+#: inc/back-compat.php:68
+#, php-format
+#@ whitelab
+msgid "WhiteLab 1.0 requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer.php:19
+#: inc/customizer.php:20
+#@ whitelab
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: inc/customizer.php:28
+#@ whitelab
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer.php:31
+#@ whitelab
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: inc/customizer.php:37
+#@ whitelab
+msgid "Header settings"
+msgstr ""
+
+#: inc/customizer.php:38
+#@ whitelab
+msgid "You can configure your theme header settings here."
+msgstr ""
+
+#: inc/customizer.php:44
+#@ whitelab
+msgid "Header login/register settings"
+msgstr ""
+
+#: inc/customizer.php:45
+#@ whitelab
+msgid "You can configure your theme header login settings here."
+msgstr ""
+
+#: inc/customizer.php:51
+#@ whitelab
+msgid "Footer settings"
+msgstr ""
+
+#: inc/customizer.php:52
+#@ whitelab
+msgid "You can configure your theme footer settings here."
+msgstr ""
+
+#: inc/customizer.php:60
+#, php-format
+#@ whitelab
+msgid "Header slide Nr. %d"
+msgstr ""
+
+#: inc/customizer.php:61
+#@ whitelab
+msgid "Slide for your header!"
+msgstr ""
+
+#: inc/customizer.php:70
+#@ whitelab
+msgid "Slider title"
+msgstr ""
+
+#: inc/customizer.php:81
+#: inc/customizer.php:209
+#@ whitelab
+msgid "Slider text"
+msgstr ""
+
+#: inc/customizer.php:90
+#@ whitelab
+msgid "Header slide image"
+msgstr ""
+
+#: inc/customizer.php:102
+#@ whitelab
+msgid "Header slider autoplay"
+msgstr ""
+
+#: inc/customizer.php:103
+#@ whitelab
+msgid "Provide a delay in milliseconds, how fast to slide the slides. Entering \"0\" will disable the autoplay."
+msgstr ""
+
+#: inc/customizer.php:111
+#@ whitelab
+msgid "Delay"
+msgstr ""
+
+#: inc/customizer.php:121
+#@ whitelab
+msgid "Terms and conditions"
+msgstr ""
+
+#: inc/customizer.php:122
+#@ whitelab
+msgid "Terms and conditions URL for your register dialog!"
+msgstr ""
+
+#: inc/customizer.php:130
+#@ whitelab
+msgid "Terms and conditions URL"
+msgstr ""
+
+#: inc/customizer.php:140
+#: inc/customizer.php:147
+#@ whitelab
+msgid "Header logo"
+msgstr ""
+
+#: inc/customizer.php:141
+#@ whitelab
+msgid "Logo that's going to be shown only in the static front page header."
+msgstr ""
+
+#: inc/customizer.php:158
+#: inc/customizer.php:165
+#@ whitelab
+msgid "Header secondary logo"
+msgstr ""
+
+#: inc/customizer.php:159
+#@ whitelab
+msgid "Logo that's going to be shown everywhere except the static front page!."
+msgstr ""
+
+#: inc/customizer.php:176
+#@ whitelab
+msgid "Homepage slider"
+msgstr ""
+
+#: inc/customizer.php:177
+#@ whitelab
+msgid "Choose what type of slider to show at your homepage."
+msgstr ""
+
+#: inc/customizer.php:185
+#@ whitelab
+msgid "Slider status"
+msgstr ""
+
+#: inc/customizer.php:198
+#@ whitelab
+msgid "Slider image"
+msgstr ""
+
+#: inc/customizer.php:217
+#@ whitelab
+msgid "Slider text color"
+msgstr ""
+
+#: inc/customizer.php:228
+#@ whitelab
+msgid "Start slider after"
+msgstr ""
+
+#: inc/customizer.php:239
+#@ whitelab
+msgid "Slider alias"
+msgstr ""
+
+#: inc/customizer.php:249
+#: inc/customizer.php:258
+#@ whitelab
+msgid "Footer style"
+msgstr ""
+
+#: inc/customizer.php:250
+#@ whitelab
+msgid "The style of your themes footer."
+msgstr ""
+
+#: inc/customizer.php:273
+#@ whitelab
+msgid "Search categories"
+msgstr ""
+
+#: inc/customizer.php:274
+#@ whitelab
+msgid "Choose which categories to show at the homepage search."
+msgstr ""
+
+#: inc/customizer.php:293
+#@ whitelab
+msgid "Font settings"
+msgstr ""
+
+#: inc/customizer.php:294
+#@ whitelab
+msgid "You can configure your themes font settings here, if there are characters in your language that are not supported by a particular font, disable it.."
+msgstr ""
+
+#: inc/customizer.php:425
+#@ whitelab
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:440
+#@ whitelab
+msgid "Reset fonts"
+msgstr ""
+
+#: inc/featured-content.php:432
+#@ whitelab
+msgid "Featured Content"
+msgstr ""
+
+#: inc/featured-content.php:433
+#, php-format
+#@ whitelab
+msgid "Use the <a href=\"%1$s\">\"featured\" tag</a> to feature your posts. You can change this to a tag of your choice; if no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: inc/featured-content.php:462
+#@ whitelab
+msgid "Post order"
+msgstr ""
+
+#: inc/featured-content.php:473
+#@ whitelab
+msgid "Tag Name"
+msgstr ""
+
+#: inc/featured-content.php:478
+#@ whitelab
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: inc/featured-content.php:484
+#@ whitelab
+msgid "Post limit"
+msgstr ""
+
+#: tag.php:18
+#, php-format
+#@ whitelab
+msgid "Tag Archives: <span>%s</span>"
+msgstr ""
+

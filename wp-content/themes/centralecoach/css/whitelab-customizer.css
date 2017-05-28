@@ -1,0 +1,38 @@
+/* Customizer */
+
+.cohhe-social-profiles {
+	padding: 14px;
+}
+
+.cohhe-social-profiles li#customize-control-whitelab_fake_field,
+.cohhe-reset-fonts li#customize-control-whitelab_fake_field2 {
+	display: none !important;
+}
+
+.cohhe-social-profiles li i {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: cover !important;
+	margin-right: 5px;
+	float: left;
+}
+
+.cohhe-social-profiles li a {
+	height: 20px;
+	line-height: 20px;
+}
+
+#customize-theme-controls>ul>#accordion-section-directory_social_links {
+	margin-top: 10px;
+}
+
+.cohhe-social-profiles li.documentation {
+	text-align: right;
+	margin-bottom: 60px;
+}
+
+.cohhe-reset-fonts {
+	padding: 14px;
+	text-align: right;
+}
