@@ -1,0 +1,29 @@
+.dt-header-categories__img img{
+	width: 150px;
+	border-radius: 50%;
+}
+
+.dt-header-categories {
+	padding: 20px 0 15px 0;
+	height: auto;
+}
+
+.dt-header-categories .dt-header-category-item {
+	margin-top: 20px;
+}
+
+.dt-header-category-item .dt-header-category-name {
+	color: #fff;
+}
+
+.dt-module-title .dt-module-front-title {
+	color: #9ea9a9;
+}
+
+.dt-module-title .dt-module-front-title::after {
+	background: #AA2F4B;
+}
+
+.dt-quote-page img {
+	border-radius: 50%;
+}

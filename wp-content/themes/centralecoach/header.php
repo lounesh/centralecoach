@@ -340,7 +340,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 								<img src="'.wp_get_attachment_url(1824).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<span class="dt-header-category-name">Innovation</span>
+								<a href="#" class="dt-header-category-name">Innovation</a>
 							</div>
 						</div>
 						<div class="vc_col-xs-12 vc_col-md-3">
@@ -348,7 +348,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 								<img src="'.wp_get_attachment_url(1823).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<span class="dt-header-category-name">Excellence</span>
+								<a href="#" class="dt-header-category-name">Excellence</a>
 							</div>
 						</div>
 						<div class="vc_col-xs-12 vc_col-md-3">
@@ -356,7 +356,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 								<img src="'.wp_get_attachment_url(1822).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<span class="dt-header-category-name"> Collaboration</span>
+								<a href="#" class="dt-header-category-name"> Collaboration</a>
 							</div>
 						</div>
 						<div class="vc_col-xs-12 vc_col-md-3">
@@ -364,7 +364,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 								<img src="'.wp_get_attachment_url(1825).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<span class="dt-header-category-name"> Authenticité</span>
+								<a href="#" class="dt-header-category-name"> Authenticité</a>
 							</div>
 						</div>
 					</div>
