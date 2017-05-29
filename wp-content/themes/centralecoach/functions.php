@@ -1584,3 +1584,14 @@ function whitelab_remove_admin_bar() {
 		show_admin_bar(false);
 	}
 }
+
+/* Costum */
+
+function custom_style() {
+
+	/*Enqueue The Styles*/
+	wp_enqueue_style( 'centralecoach', get_template_directory_uri() . '/css/custom.css' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'custom_style' );

@@ -20,6 +20,9 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<?php 
+		
+	?>
 	<?php wp_head(); ?>
 </head>
 <?php
@@ -234,7 +237,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 				}
 
 				/*
-				
+
 				if ( isset($main_settings['search_page_id']) ) {
 					if ( isset($main_settings['homepage_search_layout']) && $main_settings['homepage_search_layout'] != '' ) {
 						$search_layout = json_decode( $main_settings['homepage_search_layout'], true );
@@ -313,7 +316,6 @@ $main_settings = get_option( 'db_main_settings', array() );
 					}
 				}
 
-				*/
 
 				if ( !is_wp_error($listing_categories) && !empty($listing_categories) && isset($main_settings['search_page_id']) ) {
 					echo '<div class="dt-header-categories" data-url="'.esc_url(get_permalink(intval($main_settings['search_page_id']))).'">';
@@ -329,6 +331,44 @@ $main_settings = get_option( 'db_main_settings', array() );
 					}
 					echo '</div>';
 				}
+
+				*/
+				echo '
+					<div class="dt-header-categories">
+						<div class="vc_col-xs-12 vc_col-md-3">
+							<div class="dt-header-categories__img">
+								<img src="'.wp_get_attachment_url(1824).'" alt="">
+							</div>
+							<div class="dt-header-category-item">
+								<span class="dt-header-category-name">Innovation</span>
+							</div>
+						</div>
+						<div class="vc_col-xs-12 vc_col-md-3">
+							<div class="dt-header-categories__img">
+								<img src="'.wp_get_attachment_url(1823).'" alt="">
+							</div>
+							<div class="dt-header-category-item">
+								<span class="dt-header-category-name">Excellence</span>
+							</div>
+						</div>
+						<div class="vc_col-xs-12 vc_col-md-3">
+							<div class="dt-header-categories__img">
+								<img src="'.wp_get_attachment_url(1822).'" alt="">
+							</div>
+							<div class="dt-header-category-item">
+								<span class="dt-header-category-name"> Collaboration</span>
+							</div>
+						</div>
+						<div class="vc_col-xs-12 vc_col-md-3">
+							<div class="dt-header-categories__img">
+								<img src="'.wp_get_attachment_url(1825).'" alt="">
+							</div>
+							<div class="dt-header-category-item">
+								<span class="dt-header-category-name"> Authenticité</span>
+							</div>
+						</div>
+					</div>
+				';
 
 			echo '</div><div class="clearfix"></div>';
 		}
