@@ -72,31 +72,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 ?>
 <body <?php body_class(); ?>>
 <div id="page" class="page-wrapper hfeed site">
-	<?php if ( !is_customize_preview() && current_user_can( 'manage_options' ) ) { ?>
-		<div class="customizer">
-			<ul class="color-tool">
-				<li class="color-1"><div class="drag-element" data-color="#333"><div class="drop color-1"></div><i class="drop-helper-1 color-1"></i><i class="drop-helper-2 color-1"></i><i class="drop-helper-3 color-1"></i><i class="drop-helper-4 color-1"></i></div></li>
-				<li class="color-2"><div class="drag-element" data-color="#f0f0f0"><div class="drop color-2"></div><i class="drop-helper-1 color-2"></i><i class="drop-helper-2 color-2"></i><i class="drop-helper-3 color-2"></i><i class="drop-helper-4 color-2"></i></div></li>
-				<li class="color-3"><div class="drag-element" data-color="#c0c3d5"><div class="drop color-3"></div><i class="drop-helper-1 color-3"></i><i class="drop-helper-2 color-3"></i><i class="drop-helper-3 color-3"></i><i class="drop-helper-4 color-3"></i></div></li>
-				<li class="color-4"><div class="drag-element" data-color="#5FA1E0"><div class="drop color-4"></div><i class="drop-helper-1 color-4"></i><i class="drop-helper-2 color-4"></i><i class="drop-helper-3 color-4"></i><i class="drop-helper-4 color-4"></i></div></li>
-				<li class="color-5"><div class="drag-element" data-color="#C1D5C0"><div class="drop color-5"></div><i class="drop-helper-1 color-5"></i><i class="drop-helper-2 color-5"></i><i class="drop-helper-3 color-5"></i><i class="drop-helper-4 color-5"></i></div></li>
-				<li class="color-6"><div class="drag-element" data-color="#47AE73"><div class="drop color-6"></div><i class="drop-helper-1 color-6"></i><i class="drop-helper-2 color-6"></i><i class="drop-helper-3 color-6"></i><i class="drop-helper-4 color-6"></i></div></li>
-				<li class="color-7"><div class="drag-element" data-color="#EAE7C4"><div class="drop color-7"></div><i class="drop-helper-1 color-7"></i><i class="drop-helper-2 color-7"></i><i class="drop-helper-3 color-7"></i><i class="drop-helper-4 color-7"></i></div></li>
-				<li class="color-8"><div class="drag-element" data-color="#FB6964"><div class="drop color-8"></div><i class="drop-helper-1 color-8"></i><i class="drop-helper-2 color-8"></i><i class="drop-helper-3 color-8"></i><i class="drop-helper-4 color-8"></i></div></li>
-				<li class="color-9"><div class="drag-element" data-color="#FFFFFF"><div class="drop color-9"></div><i class="drop-helper-1 color-9"></i><i class="drop-helper-2 color-9"></i><i class="drop-helper-3 color-9"></i><i class="drop-helper-4 color-9"></i></div></li>
-				<li><button class="reset-button" title="Reser colors"><?php esc_html_e('Reset colors', 'whitelab'); ?></button></li>
-			</ul>
-			<span class="toggle-colorcustomizer wlicon-cog"></span>
-		</div>
-		<div class="info-wrap">
-			<div class="info">
-				<h3><?php esc_html_e('Interactive Coloring', 'whitelab'); ?></h3>
-				<p><img src="<?php echo get_template_directory_uri(); ?>/images/drag.svg" alt="drag icon"/><?php esc_html_e('Drag any color from the left toolbar to an area or text in the page. A blue outline will indicate a droppable element.', 'whitelab'); ?></p>
-				<p><img src="<?php echo get_template_directory_uri(); ?>/images/time.svg" alt="drag icon"/><?php esc_html_e('On mobile, wait a tiny bit until you drag the color drop.', 'whitelab'); ?></p>
-				<button class="info-close"><?php esc_html_e('Got it!', 'whitelab'); ?></button>
-			</div>
-		</div>
-	<?php } ?>
+	
 	<header id="masthead" class="site-header">
 		<div class="header-content">
 			<div class="header-main">
@@ -112,7 +88,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 					?>
 				</div>
 				<?php if ( isset($main_settings['add_page_id']) && !is_user_logged_in() ) { ?>
-					<a href="<?php echo esc_url(get_permalink(intval($main_settings['add_page_id']))); ?>" class="dt-create-listing dt-button dt-button-invert"><?php esc_html_e('Create a listing', 'whitelab'); ?></a>
+					<!-- <a href="<?php echo esc_url(get_permalink(intval($main_settings['add_page_id']))); ?>" class="dt-create-listing dt-button dt-button-invert"><?php esc_html_e('Create a listing', 'whitelab'); ?></a> -->
 				<?php } else if ( isset($main_settings['account_page_id']) && is_user_logged_in() ) { ?>
 					<a href="<?php echo esc_url(get_permalink(intval($main_settings['account_page_id']))); ?>" class="dt-author-account dt-button dt-button-invert"><?php esc_html_e('My account', 'whitelab'); ?></a>
 				<?php } ?>
@@ -226,7 +202,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 						<div class="db-dialog-overlay"></div>
 					</div>
 				<?php } ?>
-				<div class="main-header-right-side vc_col-xs-9 vc_col-sm-8 vc_col-md-5">
+				<div class="main-header-right-side vc_col-xs-9 vc_col-sm-8 vc_col-md-7">
 					<nav id="primary-navigation" class="site-navigation primary-navigation navbar-collapse collapse" role="navigation">
 						<?php
 							wp_nav_menu(
