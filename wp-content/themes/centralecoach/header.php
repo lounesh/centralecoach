@@ -232,7 +232,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 				} else if ( $slider_type == 'split' ) {
 					echo do_shortcode('[directory_slider background="'.esc_url(get_theme_mod('whitelab_custom_slider_image', '')).'" text="'.esc_attr(get_theme_mod('whitelab_custom_slider_text', 'Whitelab')).'" delay="'.intval(get_theme_mod('whitelab_custom_slider_delay', '1500')).'" text_color="'.esc_attr(get_theme_mod('whitelab_custom_slider_color', '#fbe094')).'"]');
 				}
-
+				/*
 				if ( isset($main_settings['search_page_id']) ) {
 					if ( isset($main_settings['homepage_search_layout']) && $main_settings['homepage_search_layout'] != '' ) {
 						$search_layout = json_decode( $main_settings['homepage_search_layout'], true );
@@ -325,6 +325,7 @@ $main_settings = get_option( 'db_main_settings', array() );
 					}
 					echo '</div>';
 				}
+				*/
 			echo '</div><div class="clearfix"></div>';
 		}
 	?>
