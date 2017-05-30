@@ -25,7 +25,8 @@
 	margin-top: -20px;
 }
 
-.dt-module-title .dt-module-front-title::after {
+.dt-module-title .dt-module-front-title::after,
+h1.entry-title::after {
 	background: #AA2F4B;
 	box-shadow: none;
 }
@@ -48,4 +49,13 @@
 
 .centrale-coach-text {
 	text-align: center;
+}
+
+header nav.site-navigation > div > ul.nav-menu > li > ul li a span {
+	color: #50514F !important;
+}
+
+header nav.site-navigation > div > ul.nav-menu > li > ul li a span:hover,
+header nav.site-navigation > div > ul.nav-menu > li > ul li a span:focus {
+	color: #AD8140 !important;
 }
