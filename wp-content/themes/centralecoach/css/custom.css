@@ -34,10 +34,18 @@
 	border-radius: 50%;
 }
 
+.site-footer-wrapper {
+	margin-top: 50px;
+}
+
 .site-footer-wrapper.minimal .footer-bottom-container {
 	background-color: #121212;
 }
 
 .site-footer-wrapper.minimal .dt-footer-copyright {
 	color: #AD8140;
+}
+
+.centrale-coach-text {
+	text-align: center;
 }
