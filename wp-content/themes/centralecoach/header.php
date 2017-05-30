@@ -337,34 +337,34 @@ $main_settings = get_option( 'db_main_settings', array() );
 					<div class="dt-header-categories">
 						<div class="vc_col-xs-12 vc_col-md-3">
 							<div class="dt-header-categories__img">
-								<img src="'.wp_get_attachment_url(1824).'" alt="">
+								<img src="'.wp_get_attachment_url(1839).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<a href="#" class="dt-header-category-name">Innovation</a>
+								<a href="#" class="dt-header-category-name">Coaching</a>
 							</div>
 						</div>
 						<div class="vc_col-xs-12 vc_col-md-3">
 							<div class="dt-header-categories__img">
-								<img src="'.wp_get_attachment_url(1823).'" alt="">
+								<img src="'.wp_get_attachment_url(1843).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<a href="#" class="dt-header-category-name">Excellence</a>
+								<a href="#" class="dt-header-category-name">Conférence</a>
 							</div>
 						</div>
 						<div class="vc_col-xs-12 vc_col-md-3">
 							<div class="dt-header-categories__img">
-								<img src="'.wp_get_attachment_url(1822).'" alt="">
+								<img src="'.wp_get_attachment_url(1842).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<a href="#" class="dt-header-category-name"> Collaboration</a>
+								<a href="#" class="dt-header-category-name"> Formation</a>
 							</div>
 						</div>
 						<div class="vc_col-xs-12 vc_col-md-3">
 							<div class="dt-header-categories__img">
-								<img src="'.wp_get_attachment_url(1825).'" alt="">
+								<img src="'.wp_get_attachment_url(1841).'" alt="">
 							</div>
 							<div class="dt-header-category-item">
-								<a href="#" class="dt-header-category-name"> Authenticité</a>
+								<a href="#" class="dt-header-category-name"> Consulting</a>
 							</div>
 						</div>
 					</div>

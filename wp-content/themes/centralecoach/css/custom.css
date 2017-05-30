@@ -16,12 +16,18 @@
 	color: #fff;
 }
 
+.dt-module-title .dt-module-background-title {
+	font-size: 120px;
+}
+
 .dt-module-title .dt-module-front-title {
 	color: #9ea9a9;
+	margin-top: -20px;
 }
 
 .dt-module-title .dt-module-front-title::after {
 	background: #AA2F4B;
+	box-shadow: none;
 }
 
 .dt-quote-page img {
