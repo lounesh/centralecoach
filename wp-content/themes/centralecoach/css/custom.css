@@ -59,3 +59,20 @@ header nav.site-navigation > div > ul.nav-menu > li > ul li a span:hover,
 header nav.site-navigation > div > ul.nav-menu > li > ul li a span:focus {
 	color: #AD8140 !important;
 }
+
+.service-img .wpb_single_image img {
+	border-radius: 50%;
+}
+
+.service-img-link {
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: 'Poppins';
+	color: #AD8140;
+}
+
+.service-img-link:hover,
+.service-img-link:focus {
+	color: #121212;
+}
