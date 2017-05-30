@@ -27,3 +27,11 @@
 .dt-quote-page img {
 	border-radius: 50%;
 }
+
+.site-footer-wrapper.minimal .footer-bottom-container {
+	background-color: #121212;
+}
+
+.site-footer-wrapper.minimal .dt-footer-copyright {
+	color: #AD8140;
+}
