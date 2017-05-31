@@ -1,78 +1,117 @@
-.dt-header-categories__img img{
-	width: 150px;
-	border-radius: 50%;
+/* 320 */
+@media only screen and (min-width: 320px) {
+  .dt-header-categories__img img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .dt-header-categories {
+    padding: 20px 0 15px 0;
+    height: auto;
+  }
+  .dt-header-categories .dt-header-category-item {
+    margin-top: 20px;
+  }
+  .dt-header-category-item .dt-header-category-name {
+    color: #fff;
+  }
+  .dt-module-title .dt-module-background-title {
+    font-size: 120px;
+  }
+  .dt-module-title .dt-module-front-title {
+    color: #9ea9a9;
+    margin-top: -20px;
+  }
+  .dt-module-title .dt-module-front-title::after,
+  h1.entry-title::after {
+    background: #AA2F4B;
+    box-shadow: none;
+  }
+  .dt-quote-page img {
+    border-radius: 50%;
+  }
+  .site-footer-wrapper {
+    margin-top: 50px;
+  }
+  .site-footer-wrapper.minimal .footer-bottom-container {
+    background-color: #121212;
+  }
+  .site-footer-wrapper.minimal .dt-footer-copyright {
+    color: #AD8140;
+  }
+  .centrale-coach-text {
+    text-align: center;
+  }
+  header nav.site-navigation > div > ul.nav-menu > li > ul li a span {
+    color: #50514F !important;
+  }
+  header nav.site-navigation > div > ul.nav-menu > li > ul li a span:hover,
+  header nav.site-navigation > div > ul.nav-menu > li > ul li a span:focus {
+    color: #AD8140 !important;
+  }
+  .service-img img {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .service-img img:hover,
+  .service-img img:focus {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+  .service-img-link {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #AD8140;
+  }
+  .service-img-link:hover,
+  .service-img-link:focus {
+    color: #121212;
+  }
+  .header-img-div {
+    margin-bottom: 50px;
+  }
 }
-
-.dt-header-categories {
-	padding: 20px 0 15px 0;
-	height: auto;
-}
-
-.dt-header-categories .dt-header-category-item {
-	margin-top: 20px;
-}
-
-.dt-header-category-item .dt-header-category-name {
-	color: #fff;
-}
-
-.dt-module-title .dt-module-background-title {
-	font-size: 120px;
-}
-
-.dt-module-title .dt-module-front-title {
-	color: #9ea9a9;
-	margin-top: -20px;
-}
-
-.dt-module-title .dt-module-front-title::after,
-h1.entry-title::after {
-	background: #AA2F4B;
-	box-shadow: none;
-}
-
-.dt-quote-page img {
-	border-radius: 50%;
-}
-
-.site-footer-wrapper {
-	margin-top: 50px;
-}
-
-.site-footer-wrapper.minimal .footer-bottom-container {
-	background-color: #121212;
-}
-
-.site-footer-wrapper.minimal .dt-footer-copyright {
-	color: #AD8140;
-}
-
-.centrale-coach-text {
-	text-align: center;
-}
-
-header nav.site-navigation > div > ul.nav-menu > li > ul li a span {
-	color: #50514F !important;
-}
-
-header nav.site-navigation > div > ul.nav-menu > li > ul li a span:hover,
-header nav.site-navigation > div > ul.nav-menu > li > ul li a span:focus {
-	color: #AD8140 !important;
-}
-
-.service-img .wpb_single_image img {
-	border-radius: 50%;
-}
-
-.service-img-link {
-	display: inline-block;
-	margin: 0 auto;
-	font-size: 16px;
-	font-family: 'Poppins';
-	color: #AD8140;
-}
-
-.service-img-link:hover,
-.service-img-link:focus {
-	color: #121212;
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .dt-header-categories__img img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .dt-header-categories {
+    padding: 20px 0 15px 0;
+    height: auto;
+  }
+  .dt-header-categories .dt-header-category-item {
+    margin-top: 20px;
+  }
+  .dt-module-title .dt-module-background-title {
+    font-size: 120px;
+  }
+  .dt-module-title .dt-module-front-title {
+    margin-top: -20px;
+  }
+  .dt-quote-page img {
+    border-radius: 50%;
+  }
+  .site-footer-wrapper {
+    margin-top: 50px;
+  }
+  .service-img-link {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .header-img-div {
+    margin-bottom: 50px;
+  }
 }

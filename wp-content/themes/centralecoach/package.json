@@ -1,0 +1,10 @@
+{
+  "name": "sloanLED-website",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "load-grunt-tasks": "*"
+  }
+}
