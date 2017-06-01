@@ -86,6 +86,12 @@
   .bloc-icons .wpb_content_element {
     margin-bottom: 25px;
   }
+  .c-c-page-text h3 strong {
+    color: #AA2F4B;
+  }
+  .c-c-page-text strong {
+    color: #AD8140;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
