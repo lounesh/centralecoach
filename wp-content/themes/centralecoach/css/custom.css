@@ -77,6 +77,15 @@
   .header-img-div {
     margin-bottom: 50px;
   }
+  .bloc-icons img {
+    border-bottom: 1px solid #9b9b9b;
+  }
+  .bloc-icons .icon-title {
+    color: #9b9b9b;
+  }
+  .bloc-icons .wpb_content_element {
+    margin-bottom: 25px;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
