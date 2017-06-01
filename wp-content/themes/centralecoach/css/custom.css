@@ -89,11 +89,33 @@
   .c-c-page-text h3 {
     padding-top: 0;
   }
-  .c-c-page-text h3 strong {
+  .c-c-page-text img {
+    margin-right: 30px;
+  }
+  .c-c-page-text h3 strong,
+  .c-c-page-text h5 {
     color: #AA2F4B;
   }
   .c-c-page-text strong {
     color: #AD8140;
+  }
+  .c-c-page-text .color-gold {
+    color: #AD8140;
+  }
+  .db-choose-package {
+    border-color: #AD8140;
+    color: #AD8140;
+  }
+  .db-choose-package:hover,
+  .db-choose-package:focus {
+    background-color: #AD8140;
+    color: #fff;
+  }
+  li.popular .db-choose-package:hover,
+  li.popular .db-choose-package:focus {
+    border-color: #AD8140;
+    background-color: #AD8140;
+    color: #fff;
   }
 }
 /* Extra Small Devices, Phones */

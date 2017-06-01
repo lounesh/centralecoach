@@ -115,11 +115,39 @@
 		padding-top: 0;
 	}
 
-	.c-c-page-text h3 strong{
+	.c-c-page-text img {
+		margin-right: 30px;
+	}
+
+	.c-c-page-text h3 strong,
+	.c-c-page-text h5{
 		color: @color-grenat;
 	}
 
 	.c-c-page-text strong {
 		color: @color-gold;
+	}
+
+	.c-c-page-text .color-gold {
+		color: @color-gold;
+	}
+
+	.db-choose-package {
+		border-color: @color-gold;
+		color: @color-gold;
+
+		&:hover, &:focus {
+			background-color: @color-gold;
+			color: #fff;
+		}
+	}
+
+	li.popular .db-choose-package {
+
+		&:hover, &:focus {
+			border-color: @color-gold;
+			background-color: @color-gold;
+			color: #fff;
+		}
 	}
 }
