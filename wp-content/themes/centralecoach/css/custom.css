@@ -126,6 +126,16 @@
     background-color: #AD8140;
     color: #fff;
   }
+  .footer-menu-wrapper {
+    background-color: transparent;
+  }
+  .site-footer-wrapper.minimal .footer-menu-wrapper > div > ul li a {
+    color: #AD8140;
+  }
+  .site-footer-wrapper.minimal .footer-menu-wrapper > div > ul li a:hover,
+  .site-footer-wrapper.minimal .footer-menu-wrapper > div > ul li a:focus {
+    color: #fff;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */

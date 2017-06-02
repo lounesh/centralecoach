@@ -275,6 +275,12 @@ class easyTestimonialOptions
 	function add_extra_classes_to_admin_menu() 
 	{
 		global $menu;
+		
+		//sometimes $menu is not an array (perhaps this is running in non-admin mode due to another plugin)
+		if( !is_array($menu) ){
+			return;
+		}
+		
 		foreach( $menu as $key => $value ) {
 			$extra_classes = 'easy_testimonials_admin_menu';
 			$extra_classes .= $this->config->is_pro

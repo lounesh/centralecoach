@@ -218,13 +218,13 @@ class easyTestimonialDisplayOptions extends easyTestimonialOptions{
 		<table class="form-table">
 			<tr valign="top">
 				<th scope="row"><label for="easy_t_previous_text">Previous Testimonial Text</label></th>
-				<td><input type="text" name="easy_t_previous_text" id="easy_t_previous_text" value="<?php echo get_option('easy_t_previous_text', '<< Prev'); ?>" />
+				<td><input type="text" name="easy_t_previous_text" id="easy_t_previous_text" value="<?php echo htmlentities( get_option('easy_t_previous_text', '<< Prev') ); ?>" />
 				<p class="description">This is the Text used for the Previous Testimonial button in the slideshow.</p>
 				</td>
 			</tr>
 			<tr valign="top">
 				<th scope="row"><label for="easy_t_next_text">Next Testimonial Text</label></th>
-				<td><input type="text" name="easy_t_next_text" id="easy_t_next_text" value="<?php echo get_option('easy_t_next_text', 'Next >>'); ?>" />
+				<td><input type="text" name="easy_t_next_text" id="easy_t_next_text" value="<?php echo htmlentities( get_option('easy_t_next_text', 'Next >>') ); ?>" />
 				<p class="description">This is the Text used for the Next Testimonial button in the slideshow.</p>
 				</td>
 			</tr>

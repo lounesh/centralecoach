@@ -5,7 +5,7 @@ Contributors: richardgabriel, ghuger
 Tags: testimonials, testimonial widget, testimonial feed, random testimonials
 Requires at least: 4.0.0
 Tested up to: 4.7.5
-Stable tag: 2.3
+Stable tag: 2.3.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -105,6 +105,10 @@ Visit [here](https://goldplugins.com/documentation/easy-testimonials-documentati
 
 == Changelog ==
 
+= 2.3.1 =
+* Update Testimonial Slide Controls to support HTML values.
+* Compatibility fix for SG Optimizer.
+
 = 2.3 =
 * Compatibility Update for 4.7.5
 * Admin UI Update
@@ -126,4 +130,4 @@ Visit [here](https://goldplugins.com/documentation/easy-testimonials-documentati
 
 == Upgrade Notice ==
 
-**2.3** Admin UI Update, Updates Custom CSS for Mobile Devices
+**2.3.1** Update for Testimonial Slide Controls and SG Optimizer
