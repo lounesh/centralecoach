@@ -74,8 +74,25 @@
   .service-img-link:focus {
     color: #121212;
   }
+  .service-img .wpb_content_element {
+    margin-bottom: 0 !important;
+    text-align: center;
+  }
+  .service-img p {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 0 !important;
+  }
+  .service-img .conferences-title {
+    color: #AD8140;
+    font-size: 16px;
+  }
+  .service-img .conferences-title:hover,
+  .service-img .conferences-title:focus {
+    color: #121212;
+  }
   .header-img-div {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   .bloc-icons img {
     border-bottom: 1px solid #9b9b9b;
@@ -193,10 +210,21 @@
     padding-bottom: 0 !important;
     border: 2px solid #AD8140 !important;
   }
+  #footer-sidebar p {
+    text-align: center;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .header-img-div {
+    margin-bottom: 50px;
+  }
+  #footer-sidebar p {
+    text-align: left;
+  }
+}
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .dt-header-categories__img img {
