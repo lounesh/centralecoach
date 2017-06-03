@@ -34,7 +34,7 @@ pipelines:
   #           - apt-get -qq install git-ftp
   #           - git ftp push --user $WPENGINE_FTP_USER_PROD --passwd $WPENGINE_FTP_PASS_PROD -v sftp://sloanled.wpengine.com:2222
   branches:
-    master:
+    development:
       - step:
           script:
             - apt-get update
