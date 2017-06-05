@@ -213,6 +213,15 @@
   #footer-sidebar p {
     text-align: center;
   }
+  .packs {
+    margin-bottom: 30px;
+  }
+  .packs .db-fee-value {
+    margin-bottom: 20px;
+  }
+  .packs2 {
+    margin-bottom: 0;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
@@ -223,6 +232,12 @@
   }
   #footer-sidebar p {
     text-align: left;
+  }
+  .packs {
+    margin-bottom: 60px;
+  }
+  .packs .db-fee-value {
+    font-size: 32px;
   }
 }
 /* Large Devices, Wide Screens */
