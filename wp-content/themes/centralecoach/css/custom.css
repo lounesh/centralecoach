@@ -1,7 +1,7 @@
 /* 320 */
 @media only screen and (min-width: 320px) {
   .dt-header-categories__img img {
-    width: 150px;
+    width: 100px;
     border-radius: 50%;
   }
   .dt-header-categories {
@@ -222,6 +222,44 @@
   .packs2 {
     margin-bottom: 0;
   }
+  .dt-register-modal-inner .dt-modal-left-side {
+    background-color: #AD8140;
+  }
+  .dt-button.dt-button-danger {
+    background-color: #AD8140;
+  }
+  .db-single-listing-meta .db-single-listing-share {
+    width: auto;
+    display: inline-block;
+  }
+  .dt-button.dt-button-danger:hover {
+    background-color: #fff;
+    color: #AD8140;
+    border: 2px solid #AD8140;
+  }
+  .dt-modal-right-side {
+    text-align: center;
+  }
+  .dt-modal-right-side .modal-connexion,
+  .dt-modal-right-side .modal-pwd {
+    display: none;
+  }
+  .dt-register-modal-inner .dt-modal-left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dt-modal-right-side .dt-modal-title {
+    font-size: 32px;
+  }
+  .dt-modal-right-side .dt-modal-desc {
+    font-size: 16px;
+  }
+  .dt-login-form,
+  .dt-lost-form,
+  .dt-register-form {
+    text-align: left;
+  }
 }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
@@ -243,7 +281,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .dt-header-categories__img img {
-    width: 150px;
+    width: 100px;
     border-radius: 50%;
   }
   .dt-header-categories {

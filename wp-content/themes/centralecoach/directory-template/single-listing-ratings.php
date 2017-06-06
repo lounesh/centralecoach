@@ -91,7 +91,7 @@ $have_comments = have_comments();
 	<?php if ( $have_comments ) : ?>
 		<span class="db-comment-count">
 			<span class="db-comment-number"><?php echo get_comments_number(); ?></span>
-			<?php esc_html_e('Reviews', 'whitelab'); ?>
+			<?php esc_html_e('Commentaires', 'whitelab'); ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/images/comment-arrow.jpg" alt="">
 		</span>
 
@@ -116,7 +116,7 @@ $have_comments = have_comments();
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-		<p class="no-comments"><?php esc_html_e( 'Ratings are closed.', 'whitelab' ); ?></p>
+		<!-- <p class="no-comments"><?php esc_html_e( 'Ratings are closed.', 'whitelab' ); ?></p> -->
 	<?php endif; ?>
 
 	<?php

@@ -93,46 +93,54 @@ $main_settings = get_option( 'db_main_settings', array() );
 				<?php if ( isset($main_settings['add_page_id']) && !is_user_logged_in() ) { ?>
 					<!-- <a href="<?php echo esc_url(get_permalink(intval($main_settings['add_page_id']))); ?>" class="dt-create-listing dt-button dt-button-invert"><?php esc_html_e('Create a listing', 'whitelab'); ?></a> -->
 				<?php } else if ( isset($main_settings['account_page_id']) && is_user_logged_in() ) { ?>
-					<a href="<?php echo esc_url(get_permalink(intval($main_settings['account_page_id']))); ?>" class="dt-author-account dt-button dt-button-invert"><?php esc_html_e('My account', 'whitelab'); ?></a>
+					<a href="<?php echo esc_url(get_permalink(intval($main_settings['account_page_id']))); ?>" class="dt-author-account dt-button dt-button-invert"><?php esc_html_e('Mon compte', 'whitelab'); ?></a>
 				<?php } ?>
 				<div class="dt-mobile-menu">
 					<a href="javascript:void(0)" class="dt-show-mobile-menu wlicon-menu-2"></a>
 				</div>
 				<?php if ( !is_user_logged_in() ) { ?>
 					<div class="dt-login-register">
-						<a href="javascript:void(0)" class="dt-sign-in-register"><img src="<?php echo get_template_directory_uri();?>/images/lock.svg" alt=""><?php esc_html_e('Sign in / Register', 'whitelab'); ?></a>
+						<a href="javascript:void(0)" class="dt-sign-in-register"><img src="<?php echo get_template_directory_uri();?>/images/lock.svg" alt=""><?php esc_html_e('Membres', 'whitelab'); ?></a>
 						<div class="dt-login-register-modal db-dialog-animation">
 							<div class="dt-register-modal-inner">
 								<span class="dr-register-modal-close"><img src="<?php echo get_template_directory_uri();?>/images/x.png" alt=""></span>
 								<div class="dt-modal-left-side">
+									<div class="login-img-div">
+										<img src="<?php echo get_template_directory_uri();?>/images/login.png" alt="">
+									</div>
 									<?php
-									$slides = 1;
-									for ($i=0; $i < 6; $i++) { 
-										$slide_title = get_theme_mod('whitelab_header_slide_title_'.$i, '');
-										$slide_text = get_theme_mod('whitelab_header_slide_text_'.$i, '');
-										$slide_image = get_theme_mod('whitelab_header_slide_section_'.$i, '');
+									// $slides = 1;
+									// for ($i=0; $i < 6; $i++) { 
+									// 	$slide_title = get_theme_mod('whitelab_header_slide_title_'.$i, '');
+									// 	$slide_text = get_theme_mod('whitelab_header_slide_text_'.$i, '');
+									// 	$slide_image = get_theme_mod('whitelab_header_slide_section_'.$i, '');
 
-										if ( $slide_title == '' && $slide_text == '' ) {
-											continue;
-										}
+									// 	if ( $slide_title == '' && $slide_text == '' ) {
+									// 		continue;
+									// 	}
 
-										echo '
-										<div class="dt-modal-left-item '.($slides==1?'active':'').'" '.($slide_image!=''?'data-bg="'.esc_url(preg_replace('#^https?://#', '//', $slide_image)).'"':'').'><img src="'.esc_url(preg_replace('#^https?://#', '//', $slide_image)).'" alt="" class="hidden">';
-											if ( $slide_title ) {
-												echo '<span class="dt-modal-title">'.esc_html($slide_title).'</span>';
-											}
-											if ( $slide_text ) {
-												echo '<span class="dt-modal-desc">'.wp_kses( $slide_text, array( 'strong' => array() ) ).'</span>';
-											}
-										echo '
-										</div>';
+									// 	echo '
+									// 	<div class="dt-modal-left-item '.($slides==1?'active':'').'" '.($slide_image!=''?'data-bg="'.esc_url(preg_replace('#^https?://#', '//', $slide_image)).'"':'').'><img src="'.esc_url(preg_replace('#^https?://#', '//', $slide_image)).'" alt="" class="hidden">';
+									// 		if ( $slide_title ) {
+									// 			echo '<span class="dt-modal-title">'.esc_html($slide_title).'</span>';
+									// 		}
+									// 		if ( $slide_text ) {
+									// 			echo '<span class="dt-modal-desc">'.wp_kses( $slide_text, array( 'strong' => array() ) ).'</span>';
+									// 		}
+									// 	echo '
+									// 	</div>';
 										
-										$slides++;
-									} ?>
+									// 	$slides++;
+									// } 
+									?>
 								</div>
 								<div class="dt-modal-right-side">
-									<span class="dt-modal-title"><?php esc_html_e('Get discovered', 'whitelab'); ?></span>
-									<span class="dt-modal-desc"><?php esc_html_e('It has never been easier to reach clients.', 'whitelab'); ?></span>
+									<span class="dt-modal-title modal-connexion"><?php esc_html_e('CONNECTEZ-VOUS', 'whitelab'); ?></span>
+									<span class="dt-modal-desc modal-connexion"><?php esc_html_e('Entrez votre email Et votre mot de passe pour accéder à votre compte', 'whitelab'); ?></span>
+									<span class="dt-modal-title modal-inscription"><?php esc_html_e('VOUS N\'ÊTES PAS ENCORE INSCRIT ?', 'whitelab'); ?></span>
+									<span class="dt-modal-desc modal-inscription"><?php esc_html_e('Faites le maintenant, c\'est grauit !', 'whitelab'); ?></span>
+									<span class="dt-modal-title modal-pwd"><?php esc_html_e('Récupérer votre mot de passe', 'whitelab'); ?></span>
+									<span class="dt-modal-desc modal-pwd"><?php esc_html_e('Veuillez saisissez votre username.', 'whitelab'); ?></span>
 									<?php
 										$terms_url = get_theme_mod('whitelab_header_terms', '');
 										$reg_fields = array();
@@ -173,8 +181,8 @@ $main_settings = get_option( 'db_main_settings', array() );
 												</label>
 											</div>
 										<?php } ?>
-										<input type="submit" class="dt-button dt-button-danger" value="<?php esc_html_e('Register', 'whitelab'); ?>">
-										<a href="javascript:void(0)" class="dt-header-show-login"><?php esc_html_e('I\'m already a member', 'whitelab'); ?></a>
+										<input type="submit" class="dt-button dt-button-danger" value="<?php esc_html_e('Inscription', 'whitelab'); ?>">
+										<a href="javascript:void(0)" class="dt-header-show-login"><?php esc_html_e('Je suis déjà membre', 'whitelab'); ?></a>
 									</form>
 									<form method="post" class="dt-login-form hidden">
 										<div class="dt-login-message"></div>
@@ -183,11 +191,11 @@ $main_settings = get_option( 'db_main_settings', array() );
 											<input type="text" class="dt-login-username form-input" name="dt-login-username" placeholder="<?php esc_html_e('Username', 'whitelab'); ?>" required>
 										</div>
 										<div class="dt-form-row">
-											<span class="dt-form-row-label"><?php esc_html_e('Password', 'whitelab'); ?></span>
-											<input type="password" class="dt-login-password form-input" name="dt-login-password" placeholder="<?php esc_html_e('Password', 'whitelab'); ?>" required>
+											<span class="dt-form-row-label"><?php esc_html_e('Mot de passe', 'whitelab'); ?></span>
+											<input type="password" class="dt-login-password form-input" name="dt-login-password" placeholder="<?php esc_html_e('Mot de passe', 'whitelab'); ?>" required>
 										</div>
-										<input type="submit" class="dt-button dt-button-danger" value="<?php esc_html_e('Sign in', 'whitelab'); ?>">
-										<a href="javascript:void(0)" class="dt-header-show-register"><?php esc_html_e('I\'m not a member', 'whitelab'); ?></a>
+										<input type="submit" class="dt-button dt-button-danger" value="<?php esc_html_e('Connexion', 'whitelab'); ?>">
+										<a href="javascript:void(0)" class="dt-header-show-register"><?php esc_html_e('Je ne suis pas membre', 'whitelab'); ?></a>
 									</form>
 									<form method="post" class="dt-lost-form hidden">
 										<div class="dt-lost-message"></div>
@@ -195,8 +203,8 @@ $main_settings = get_option( 'db_main_settings', array() );
 											<span class="dt-form-row-label"><?php esc_html_e('Username', 'whitelab'); ?></span>
 											<input type="text" class="dt-lost-username form-input" name="dt-lost-username" placeholder="<?php esc_html_e('Username', 'whitelab'); ?>" required>
 										</div>
-										<input type="submit" class="dt-button dt-button-danger" value="<?php esc_html_e('Retrieve my password', 'whitelab'); ?>">
-										<a href="javascript:void(0)" class="dt-header-show-login"><?php esc_html_e('I want to login', 'whitelab'); ?></a>
+										<input type="submit" class="dt-button dt-button-danger" value="<?php esc_html_e('Récupérer mon mot de passe', 'whitelab'); ?>">
+										<a href="javascript:void(0)" class="dt-header-show-login"><?php esc_html_e('Connexion', 'whitelab'); ?></a>
 									</form>
 								</div>
 								<div class="clearfix"></div>

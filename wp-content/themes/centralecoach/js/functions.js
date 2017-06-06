@@ -137,18 +137,27 @@ jQuery(window).load(function() {
 		jQuery('.dt-login-form').show();
 		jQuery('.dt-register-form').hide();
 		jQuery('.dt-lost-form').hide();
+		jQuery('.modal-inscription').hide();
+		jQuery('.modal-pwd').hide();
+		jQuery('.modal-connexion').show().css('display', 'block');
 	});
 
 	jQuery(document).on('click', '.dt-header-show-register', function() {
 		jQuery('.dt-register-form').show();
 		jQuery('.dt-login-form').hide();
 		jQuery('.dt-lost-form').hide();
+		jQuery('.modal-connexion').hide();
+		jQuery('.modal-pwd').hide();
+		jQuery('.modal-inscription').show().css('display', 'block');
 	});
 
 	jQuery(document).on('click', '.dt-header-show-lost', function() {
 		jQuery('.dt-register-form').hide();
 		jQuery('.dt-login-form').hide();
 		jQuery('.dt-lost-form').show();
+		jQuery('.modal-pwd').show().css('display', 'block');
+		jQuery('.modal-connexion').hide();
+		jQuery('.modal-inscription').hide();
 	});
 
 	jQuery(document).on('submit', '.dt-login-form', function(e) {

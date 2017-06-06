@@ -195,7 +195,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 					<svg class="unlike-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="15px" viewBox="0 0 16 15" version="1.1"> <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Contact-us" transform="translate(-863.000000, -2018.000000)" fill-rule="nonzero" fill="#53666D"> <g id="Listing" transform="translate(-1.000000, 172.000000)"> <g id="favorite" transform="translate(803.000000, 1842.000000)"> <g id="broken-heart-(2)" transform="translate(61.000000, 4.000000)"> <g id="Capa_1"> <path d="M11.3356206,0 C10.5896247,0 9.87658557,0.176326531 9.21642887,0.524115646 C8.7670433,0.760816327 8.35421031,1.07530612 8,1.44843537 C7.64578969,1.07530612 7.2329567,0.760816327 6.78357113,0.524115646 C6.12338144,0.176326531 5.41037526,0 4.66437938,0 C2.09243711,0 0,2.15738095 0,4.80914966 C0,6.68734694 0.962045361,8.68214286 2.85948041,10.7381973 C4.44371134,12.454898 6.38330722,13.8859184 7.73146392,14.7841156 L8.00003299,14.9630612 L8.26860206,14.7841156 C9.61672577,13.8859524 11.5563216,12.454898 13.1405856,10.7381973 C15.0379546,8.68214286 16,6.68734694 16,4.80914966 C16,2.15738095 13.9075629,0 11.3356206,0 Z M3.57644536,10.0347959 C1.86002474,8.17486395 0.989690722,6.41670068 0.989690722,4.80914966 C0.989690722,2.72003401 2.63815258,1.02040816 4.66437938,1.02040816 C5.70197113,1.02040816 6.66421443,1.45778912 7.35818557,2.2322449 L6.75859794,2.98653061 L7.96183093,4.50034014 L6.75863093,6.01418367 L7.96186392,7.52809524 L6.75863093,9.04207483 L7.96186392,10.5559524 L6.75863093,12.069966 L7.96430515,13.5869728 L7.89571959,13.674966 C6.62452784,12.8030612 4.95432577,11.5279252 3.57644536,10.0347959 Z M12.4235546,10.0347959 C11.3111753,11.2402041 10.0082474,12.3035034 8.87854845,13.1273469 L8.03813608,12.069966 L9.24136907,10.5560544 L8.03813608,9.04214286 L9.24136907,7.52812925 L8.03816907,6.0142517 L9.24140206,4.50037415 L8.0534433,3.00585034 L8.39564536,2.53619048 C9.09746804,1.57292517 10.1690722,1.02044218 11.3356206,1.02044218 C13.3618474,1.02044218 15.0103093,2.72006803 15.0103093,4.80918367 C15.0103093,6.41670068 14.1399753,8.17486395 12.4235546,10.0347959 Z" id="Shape"/> </g> </g> </g> </g> </g> </g> </svg>
 					</div>
 					<div class="db-single-listing-share">
-						<span><?php esc_html_e( 'Share', 'whitelab' ); ?></span>
+						<span><?php esc_html_e( 'Partagez', 'whitelab' ); ?></span>
 						<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 								<g id="Single-listing" transform="translate(-953.000000, -2018.000000)" fill="#53666D">
@@ -282,7 +282,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 			<?php
 			if ( isset($all_fields['amenities']) && $all_fields['amenities']['value'] != '' && !empty($all_fields['amenities']['value']) ) {
 				?>
-				<div class="db-single-amenities">
+				<!-- <div class="db-single-amenities">
 					<h3 class="db-single-amenities-title"><?php echo esc_html($all_fields['amenities']['title']); ?></h3>
 					<?php
 					$loop = 1;
@@ -344,7 +344,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 						$loop++;
 					}
 					?> </div>
-				</div><!-- end of db-single-amenities -->
+				</div> end of db-single-amenities -->
 			<?php
 			}
 			?>
@@ -353,7 +353,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 			} ?>
 		</div><!-- end of db-single-listing-left -->
 		<div class="db-single-listing-right">
-			<div class="db-single-listing-map-wrapper">
+			<!-- <div class="db-single-listing-map-wrapper">
 				<div class="db-single-map-modal">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/x.png" class="db-single-map-close">
 					<div id="db-single-listing-map"></div>
@@ -379,10 +379,10 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 					    </g>
 					</svg>
 				</a>
-			</div>
+			</div> -->
 			<?php if ( !empty($contact_fields) ) { ?>
 				<div class="db-single-listing-side-wrapper">
-					<h3 class="db-listing-side-title"><?php esc_html_e('Contact details', 'whitelab'); ?></h3>
+					<!-- <h3 class="db-listing-side-title"><?php esc_html_e('Contact details', 'whitelab'); ?></h3> -->
 					<div class="db-single-listing-side-container">
 						<?php foreach ($contact_fields as $contact_key => $contact_data) {
 							if ( $contact_data['value'] == ''  ) {
@@ -407,21 +407,21 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 
 						$listing_email = get_post_meta( get_the_ID(), 'listingcontact', true );
 						if ( $main_settings['contact_form_status'] && $show_contact_form && $listing_email != '' ) {
-							echo '
-							<span class="db-single-listing-side-bottom">'. esc_html__('Please don\'t hesitate to', 'whitelab').' <a href="javascript:void(0)" class="db-contact-open">'.esc_html__('contact us', 'whitelab').'</a></span>
-							<div id="db-contact-listing-dialog" class="db-dialog-animation">
-								<div class="db-contact-form">
-									<span class="db-contact-close"><img src="'.get_template_directory_uri().'/images/x.png" alt=""></span>
-									<span class="db-contact-listing-title">'.esc_html__('Send us a message', 'whitelab').'</span>
-									<input type="text" class="db-contact-name" placeholder="'.esc_html__('Name', 'whitelab').'">
-									<input type="email" class="db-contact-email" placeholder="'.esc_html__('Email', 'whitelab').'">
-									<div class="db-contact-listing-msg">
-										<textarea class="db-contact-message" placeholder="'.esc_html__('Message', 'whitelab').'"></textarea>
-										<a href="javascript:void(0)" class="db-contact-author" data-author="'.esc_attr($listing_email).'"><span class="db-send-message"></span></a>
-									</div>
-									<span class="db-contact-status"></span>
-								</div>
-							</div><!-- end of db-contact-listing-dialog -->';
+							// echo '
+							// <span class="db-single-listing-side-bottom">'. esc_html__('Please don\'t hesitate to', 'whitelab').' <a href="javascript:void(0)" class="db-contact-open">'.esc_html__('contact us', 'whitelab').'</a></span>
+							// <div id="db-contact-listing-dialog" class="db-dialog-animation">
+							// 	<div class="db-contact-form">
+							// 		<span class="db-contact-close"><img src="'.get_template_directory_uri().'/images/x.png" alt=""></span>
+							// 		<span class="db-contact-listing-title">'.esc_html__('Send us a message', 'whitelab').'</span>
+							// 		<input type="text" class="db-contact-name" placeholder="'.esc_html__('Name', 'whitelab').'">
+							// 		<input type="email" class="db-contact-email" placeholder="'.esc_html__('Email', 'whitelab').'">
+							// 		<div class="db-contact-listing-msg">
+							// 			<textarea class="db-contact-message" placeholder="'.esc_html__('Message', 'whitelab').'"></textarea>
+							// 			<a href="javascript:void(0)" class="db-contact-author" data-author="'.esc_attr($listing_email).'"><span class="db-send-message"></span></a>
+							// 		</div>
+							// 		<span class="db-contact-status"></span>
+							// 	</div>
+							// </div><!-- end of db-contact-listing-dialog -->';
 						}
 					?>
 				</div><!-- end of db-single-listing-side-wrapper -->
@@ -429,7 +429,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 			<?php } ?>
 			<?php if ( isset($all_fields['hop']) && $all_fields['hop']['value'] != '' ) { ?>
 			<div class="db-single-listing-side-wrapper">
-				<h3 class="db-listing-side-title"><?php esc_html_e('Opening hours', 'whitelab'); ?></h3>
+				<h3 class="db-listing-side-title"><?php esc_html_e('Heures d\'ouverture', 'whitelab'); ?></h3>
 				<div class="db-single-listing-side-container hoo">
 					<?php
 					if ( $all_fields['hop']['value'] != 'always|' ) {
@@ -437,13 +437,13 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 						unset($custom_times['0']);
 						if ( !empty($custom_times) ) {
 							$hoo_days = array(
-								'mon' => esc_html__('Monday', 'whitelab'),
-								'tue' => esc_html__('Tuesday', 'whitelab'),
-								'wed' => esc_html__('Wednesday', 'whitelab'),
-								'thu' => esc_html__('Thursday', 'whitelab'),
-								'fri' => esc_html__('Friday', 'whitelab'),
-								'sat' => esc_html__('Saturday', 'whitelab'),
-								'sun' => esc_html__('Sunday', 'whitelab'),
+								'sun' => esc_html__('Dimanche', 'whitelab'),
+								'mon' => esc_html__('Lundi', 'whitelab'),
+								'tue' => esc_html__('Mardi', 'whitelab'),
+								'wed' => esc_html__('Mercredi', 'whitelab'),
+								'thu' => esc_html__('Jeudi', 'whitelab'),
+								'fri' => esc_html__('Vendredi', 'whitelab'),
+								'sat' => esc_html__('Samedi', 'whitelab'),
 								'--' => ' - '
 								);
 							echo '<table>';
@@ -493,6 +493,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 			</div> <!-- end of db-single-listing-side-wrapper -->
 			<?php } ?>
 			<?php
+			/*
 				$claim_info = get_post_meta( get_the_ID(), 'db_claim_info', true );
 				preg_match_all('/\d+:\d+/', $claim_info, $claim_matches);
 				$claim_data = explode( ':', $claim_info );
@@ -509,6 +510,8 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 					<span class="db-single-listing-side-bottom db-claim-text text-align-left"><?php esc_html_e('Your claim is waiting for approval!', 'whitelab'); ?></span>
 					<?php
 				}
+
+				*/
 			?>
 			<?php
 			if ( !empty($all_ads) ) {

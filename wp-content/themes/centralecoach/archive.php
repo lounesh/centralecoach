@@ -53,7 +53,7 @@ get_header();
 				elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
 					esc_html_e( 'Galleries', 'whitelab' );
 				else :
-					printf( esc_html__( 'Archive: %s', 'whitelab' ), single_cat_title('', false) );
+					printf( esc_html__( '%s', 'whitelab' ), single_cat_title('', false) );
 
 				endif;
 			?>

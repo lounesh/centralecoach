@@ -289,54 +289,7 @@ $img = wp_get_attachment_image_src( ($custom_img==''?get_post_thumbnail_id():$cu
 			} ?>
 		</div><!-- end of db-single-listing-left -->
 		<div class="db-single-listing-right">
-			<div class="db-single-listing-map-wrapper">
-				<div class="db-single-map-modal">
-					<script type="text/javascript">
-					jQuery(document).ready(function($) {
-						if ( jQuery("#db-single-listing-map").length ) {
-							var mapCanvas = document.getElementById("db-single-listing-map");
-							var location = new google.maps.LatLng(db_main.default_location_lat, db_main.default_location_lng);
-							var marker_location = new google.maps.LatLng(<?php echo  esc_attr( $listing_lat ) . ',' . esc_attr( $listing_lng ); ?>);
-							var mapOptions = {
-								center: marker_location,
-								zoom: 13,
-								mapTypeId: google.maps.MapTypeId.ROADMAP,
-								scrollwheel: false,
-								navigationControl: false,
-								mapTypeControl: false,
-								scaleControl: false,
-								disableDefaultUI: false
-							}
-							var listing_map = new google.maps.Map(mapCanvas, mapOptions);
-							var marker = new RichMarker({
-								position: marker_location,
-								map: listing_map,
-								draggable: false,
-								shadow: "none",
-								content: "<div class=\"db-map-marker <?php echo (isset($listing_category['tag-category-icon'])?esc_attr($listing_category['tag-category-icon']):''); ?>\"></div>"
-							});
-
-							jQuery(document).on("click", ".db-expand-map", function() {
-								jQuery(this).parent().addClass("active");
-								setTimeout(function() {
-									google.maps.event.trigger(listing_map,"resize");
-									listing_map.setCenter(marker_location);
-								}, 10);
-							});
-
-							jQuery(document).on("click", ".db-single-map-close", function() {
-								jQuery(this).parent().parent().removeClass("active");
-								setTimeout(function() {
-									google.maps.event.trigger(listing_map,"resize");
-									listing_map.setCenter(marker_location);
-								}, 10);
-							});
-						}
-					});
-					</script>
-					<img src="<?php echo DB_PLUGIN_URI; ?>/public/images/x.png" class="db-single-map-close">
-					<div id="db-single-listing-map"></div>
-				</div>
+		
 				<a href="https://maps.google.com/?q=<?php echo esc_attr($listing_lat); ?>,<?php echo esc_attr($listing_lng); ?>" class="db-get-directions" target="_blank"><?php esc_html_e('Get directions', 'whitelab'); ?></a>
 				<a href="javascript:void(0)" class="db-expand-map">
 					<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
