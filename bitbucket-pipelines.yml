@@ -39,4 +39,4 @@ pipelines:
           script:
             - apt-get update
             - apt-get -qq install git-ftp
-            - git ftp init --user $CENTRALE_FTP_USER --passwd $CENTRALE_FTP_PWD ftp://nokhbanews.com/public_html/centralecoach/development
+            - git ftp init --user $CENTRALE_FTP_USER --passwd $CENTRALE_FTP_PWD ftp://nokhbanews.com/public_html/centralecoach
