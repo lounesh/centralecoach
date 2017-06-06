@@ -6596,23 +6596,23 @@ function db_account_shortcode( $atts, $content = null ) {
 		$output .= '
 		<div class="db-account-wrapper">
 		<ul class="db-account-menu">
-			<li><a href="'.get_permalink().'" class="'.(empty($_GET)?'active':'').'">'.__('Dashboard', 'directory-builder').'</a></li>
-			<li><a href="'.add_query_arg('my-profile', '', get_permalink()).'" class="'.(isset($_GET['my-profile'])?'active':'').'">'.__('Edit profile', 'directory-builder').'</a></li>';
+			<li><a href="'.get_permalink().'" class="'.(empty($_GET)?'active':'').'">'.__('Tableau de bord', 'directory-builder').'</a></li>
+			<li><a href="'.add_query_arg('my-profile', '', get_permalink()).'" class="'.(isset($_GET['my-profile'])?'active':'').'">'.__('Modifier profil', 'directory-builder').'</a></li>';
 			if ( $main_settings['add_page_id'] != '' ) {
-				$output .= '<li><a href="'.get_permalink($main_settings['add_page_id']).'">'.__('Add new listing', 'directory-builder').'</a></li>';
+				$output .= '<li><a href="'.get_permalink($main_settings['add_page_id']).'">'.__('Ajouter nouveau membre', 'directory-builder').'</a></li>';
 			}
 			$output .= '
-			<li><a href="'.add_query_arg('my-listings', '', get_permalink()).'" class="'.(isset($_GET['my-listings'])?'active':'').'">'.__('My listings', 'directory-builder').'</a></li>
-			<li><a href="'.add_query_arg('my-favorites', '', get_permalink()).'" class="'.(isset($_GET['my-favorites'])?'active':'').'">'.__('My favorites', 'directory-builder').'</a></li>
-			<li><a href="'.wp_logout_url( home_url( '/' ) ).'" class="db-logout dt-button dt-button-danger dt-button-middle">'.__('Log out', 'directory-builder').'</a></li>
+			<li><a href="'.add_query_arg('my-listings', '', get_permalink()).'" class="'.(isset($_GET['my-listings'])?'active':'').'">'.__('Ma liste', 'directory-builder').'</a></li>
+			<li><a href="'.add_query_arg('my-favorites', '', get_permalink()).'" class="'.(isset($_GET['my-favorites'])?'active':'').'">'.__('Mes favoris', 'directory-builder').'</a></li>
+			<li><a href="'.wp_logout_url( home_url( '/' ) ).'" class="db-logout dt-button dt-button-danger dt-button-middle">'.__('Déconnexion', 'directory-builder').'</a></li>
 		</ul>';
 
 		if ( !isset($_GET['my-listings']) && !isset($_GET['my-favorites']) && !isset($_GET['edit-listing']) && !isset($_GET['my-profile']) ) {
-			$output .= '<p class="db-account-intro">'.__('Welcome to your dashboard! From here you can manage all  your listings, check your favorites and edit your profile.', 'directory-builder').'</p>';
+			$output .= '<p class="db-account-intro">'.__('Bienvenue sur votre tableau de bord! De là, vous pouvez gérer toutes vos listes, vérifier vos favoris et modifier votre profil.', 'directory-builder').'</p>';
 
 			$user_data = get_userdata(get_current_user_id());
 			$output .= '
-			<h2 class="db-account-title">'.__('Profile', 'directory-builder').'</h2>
+			<h2 class="db-account-title">'.__('Profil', 'directory-builder').'</h2>
 			<div class="db-account-profile-intro">
 				<span class="db-account-row">
 					<span class="db-account-label">'.__('Username', 'directory-builder').':</span>
@@ -6623,10 +6623,10 @@ function db_account_shortcode( $atts, $content = null ) {
 					<span class="db-account-value">'.$user_data->data->user_email.'</span>
 				</span>
 				<span class="db-account-row">
-					<span class="db-account-label">'.__('Password', 'directory-builder').':</span>
+					<span class="db-account-label">'.__('Mot de passe', 'directory-builder').':</span>
 					<span class="db-account-value">**********</span>
 				</span>
-				<a href="'.add_query_arg('my-profile', '', get_permalink()).'">'.__('Edit profile', 'directory-builder').'</a>
+				<a href="'.add_query_arg('my-profile', '', get_permalink()).'">'.__('Modifier profil', 'directory-builder').'</a>
 				<div class="clearfix"></div>
 			</div>';
 		}
@@ -6635,14 +6635,14 @@ function db_account_shortcode( $atts, $content = null ) {
 			if ( !isset($_GET['my-favorites']) && !empty($user_listings) ) {
 				$output .= db_checkout_html();
 				$output .= '
-				<h2 class="db-account-title">'.__('Listings', 'directory-builder').'</h2>
+				<h2 class="db-account-title">'.__('liste', 'directory-builder').'</h2>
 				<table class="db-account-listings table table-striped table-hover">
 					<thead>
 						<tr>
-							<th style="width: 28.6%;">'.__('Name', 'directory-builder').'</th>
-							<th style="width: 12.5%;">'.__('Status', 'directory-builder').'</th>
+							<th style="width: 28.6%;">'.__('Nom', 'directory-builder').'</th>
+							<th style="width: 12.5%;">'.__('Statut', 'directory-builder').'</th>
 							<th style="width: 15%;">'.__('Package', 'directory-builder').'</th>
-							<th style="width: 20%;">'.__('Expires on', 'directory-builder').'</th>
+							<th style="width: 20%;">'.__('Expire le', 'directory-builder').'</th>
 							<th style="width: 10%;">'.__('Sticky', 'directory-builder').'</th>
 							<th style="width: 15%;"></th>
 						</tr>
@@ -6715,7 +6715,7 @@ function db_account_shortcode( $atts, $content = null ) {
 									if ( $listing_data->post_status != 'pending' ) {
 										$output .= '
 										<a href="'.$view_url.'" class="db-account-listing-option view">
-											<span class="db-account-listing-option-hover">'.$view_text.'</span>
+											<span class="db-account-listing-option-hover">Voir</span>
 											<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g   transform="translate(-1164.000000, -859.000000)" fill="#53666D"><g id="listings" transform="translate(149.000000, 683.000000)"><g id="eye-copy" transform="translate(1008.000000, 166.000000)"><g id="eye-(2)" transform="translate(7.000000, 10.000000)"><g id="Layer_1"><g id="Group"><path d="M17.9640352,5.82672414 C16.4323125,2.29437931 12.9136289,0.011862069 9,0.011862069 C5.08637109,0.011862069 1.56775781,2.29431034 0.0359648437,5.82672414 C-0.0119882812,5.93727586 -0.0119882812,6.06213793 0.0359648437,6.17268966 C1.56765234,9.70544828 5.08630078,11.9881379 9,11.9881379 C12.9138047,11.9881379 16.432418,9.70544828 17.9640352,6.17268966 C18.0119883,6.06213793 18.0119883,5.93727586 17.9640352,5.82672414 L17.9640352,5.82672414 Z M9,11.1042069 C5.51271094,11.1042069 2.37104297,9.10689655 0.942503906,5.99975862 C2.37107813,2.89293103 5.51281641,0.895827586 9,0.895827586 C12.4872539,0.895827586 15.628957,2.89293103 17.0574961,5.99968966 C15.628957,9.10682759 12.4872891,11.1042069 9,11.1042069 L9,11.1042069 Z"  ></path><path d="M9,2.61465517 C7.09685156,2.61465517 5.54857031,4.13331034 5.54857031,5.99996552 C5.54857031,7.86662069 7.09688672,9.38527586 9,9.38527586 C10.9031133,9.38527586 12.4514297,7.86665517 12.4514297,5.99996552 C12.4514297,4.13327586 10.9031133,2.61465517 9,2.61465517 L9,2.61465517 Z M9,8.50141379 C7.59382031,8.50141379 6.44976563,7.37927586 6.44976563,6.00003448 C6.44976563,4.6207931 7.59382031,3.49865517 9,3.49865517 C10.4061797,3.49865517 11.5502344,4.6207931 11.5502344,6.00003448 C11.5502344,7.37927586 10.4061797,8.50141379 9,8.50141379 L9,8.50141379 Z"  ></path><path d="M9,4.20268966 C7.98964453,4.20268966 7.16755078,5.00896552 7.16755078,6.00003448 C7.16755078,6.24410345 7.36924219,6.442 7.61814844,6.442 C7.86705469,6.442 8.06874609,6.24410345 8.06874609,6.00003448 C8.06874609,5.49637931 8.48647266,5.08662069 9,5.08662069 C9.24890625,5.08662069 9.45059766,4.88872414 9.45059766,4.64465517 C9.45059766,4.40051724 9.24883594,4.20268966 9,4.20268966 L9,4.20268966 Z"  ></path></g></g></g></g></g></g></g></svg>
 										</a>';
 									}
@@ -6723,14 +6723,14 @@ function db_account_shortcode( $atts, $content = null ) {
 									if ( in_array('delete', $users_are_allowed) ) {
 										$output .= '
 										<a href="javascript:void(0)" class="db-delete-listing db-account-listing-option delete" data-id="'.$listing_data->ID.'">
-											<span class="db-account-listing-option-hover">'.__('Delete', 'directory-builder').'</span>
+											<span class="db-account-listing-option-hover">'.__('Supprimer', 'directory-builder').'</span>
 											<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g   transform="translate(-1208.000000, -858.000000)" fill="#53666D"><g id="listings" transform="translate(149.000000, 683.000000)"><g id="rubbish-bin-copy" transform="translate(1049.000000, 166.000000)"><g   transform="translate(10.000000, 9.000000)"><g id="Group"><path d="M10.0372757,1.64692387 L8.1821876,1.64692387 L8.1821876,0.433385806 C8.1821876,0.189117419 7.98646656,0 7.7438385,0 C7.72029527,0 7.7045938,0.00791225806 7.69693148,0.0158064516 C7.68907178,0.00791225806 7.67337031,0 7.66552855,0 L3.30559869,0 L3.2743752,0 L3.24297227,0 C3.00034421,0 2.81248287,0.189117419 2.81248287,0.433385806 L2.81248287,1.64694194 L0.949553018,1.64694194 C0.417192496,1.64694194 0.00238662316,2.06452129 0.00238662316,2.60044129 L0.00238662316,3.29388387 L0.00238662316,4.16063742 L0.824300163,4.16063742 L0.824300163,13.0411535 C0.824300163,13.5770916 1.23126427,13.9867587 1.7636248,13.9867587 L9.22322186,13.9867587 C9.75558238,13.9867587 10.1703703,13.5770916 10.1703703,13.0411535 L10.1703703,4.16063742 L10.9844421,4.16063742 L10.9844421,3.29388387 L10.9844421,2.60044129 C10.9844421,2.06452129 10.5694747,1.64692387 10.0372757,1.64692387 L10.0372757,1.64692387 Z M3.67347961,0.866753548 L7.3133491,0.866753548 L7.3133491,1.64692387 L3.67347961,1.64692387 L3.67347961,0.866753548 L3.67347961,0.866753548 Z M9.30153181,13.0411716 C9.30153181,13.0964671 9.27798858,13.1199871 9.22322186,13.1199871 L1.7636248,13.1199871 C1.70885808,13.1199871 1.68531485,13.096449 1.68531485,13.0411716 L1.68531485,4.16061935 L9.30153181,4.16061935 L9.30153181,13.0411716 L9.30153181,13.0411716 Z M10.1156036,3.29386581 L0.871225122,3.29386581 L0.871225122,2.60042323 C0.871225122,2.54527226 0.894768352,2.51367742 0.949535073,2.51367742 L10.0372757,2.51367742 C10.0920604,2.51367742 10.1156036,2.54527226 10.1156036,2.60042323 L10.1156036,3.29386581 L10.1156036,3.29386581 Z"  ></path><rect id="Rectangle-path" x="7.0707031" y="5.17716387" width="0.868838499" height="7.17056516"></rect><rect id="Rectangle-path" x="5.06683687" y="5.17716387" width="0.868838499" height="7.17056516"></rect><rect id="Rectangle-path" x="3.06295269" y="5.17716387" width="0.868838499" height="7.17056516"></rect></g></g></g></g></g></g></svg>
 										</a>';
 									}
 									if ( in_array('edit', $users_are_allowed) ) {
 										$output .= '
 										<a href="'.add_query_arg('edit-listing', $listing_data->ID, get_permalink($main_settings['add_page_id'])).'" class="db-edit-listing db-account-listing-option edit" data-id="'.$listing_data->ID.'">
-											<span class="db-account-listing-option-hover">'.__('Edit', 'directory-builder').'</span>
+											<span class="db-account-listing-option-hover">'.__('Modifier', 'directory-builder').'</span>
 											<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g   transform="translate(-1248.000000, -858.000000)" fill="#53666D"><g id="listings" transform="translate(149.000000, 683.000000)"><g id="edit-copy" transform="translate(1090.000000, 166.000000)"><g   transform="translate(9.000000, 9.000000)"><path d="M13.0745404,0.905621277 C11.8711362,-0.300761702 9.91411489,-0.300761702 8.71071064,0.905621277 L0.709859574,8.90349362 C0.647306383,8.96604681 0.608582979,9.04647234 0.596668085,9.13285532 L0.00390212766,13.5234936 C-0.0139702128,13.6486 0.0307106383,13.7737064 0.117093617,13.8600894 C0.191561702,13.9345574 0.295817021,13.9792383 0.40007234,13.9792383 C0.417944681,13.9792383 0.435817021,13.9792383 0.453689362,13.9762596 L3.09879574,13.6188128 C3.31922128,13.5890255 3.47411489,13.3864723 3.44432766,13.1660468 C3.41454043,12.9456213 3.21198723,12.7907277 2.9915617,12.8205149 L0.870710638,13.1064723 L1.28475319,10.0443447 L4.50773191,13.2673234 C4.5822,13.3417915 4.68645532,13.3864723 4.79071064,13.3864723 C4.89496596,13.3864723 4.99922128,13.3447702 5.07368936,13.2673234 L13.0745404,5.26945106 C13.6583702,4.68562128 13.9800723,3.91115319 13.9800723,3.08604681 C13.9800723,2.26094043 13.6583702,1.48647234 13.0745404,0.905621277 L13.0745404,0.905621277 Z M8.86560426,1.8886 L10.2090085,3.23200426 L2.90815745,10.5328553 L1.56475319,9.18945106 L8.86560426,1.8886 L8.86560426,1.8886 Z M4.79368936,12.4154085 L3.48007234,11.1017915 L10.7809234,3.80094043 L12.0945404,5.11455745 L4.79368936,12.4154085 L4.79368936,12.4154085 Z M12.6545404,4.53966383 L9.44049787,1.32562128 C9.84858298,0.989025532 10.3579447,0.804344681 10.8941149,0.804344681 C11.5047532,0.804344681 12.0766681,1.04264255 12.508583,1.47157872 C12.9404979,1.90051489 13.175817,2.47540851 13.175817,3.08604681 C13.175817,3.62519574 12.9911362,4.13157872 12.6545404,4.53966383 L12.6545404,4.53966383 Z"  ></path></g></g></g></g></g></svg>
 										</a>';
 									}
@@ -6747,7 +6747,7 @@ function db_account_shortcode( $atts, $content = null ) {
 					</tbody>
 				</table>';
 				if ( count($user_listings) > 5 && !isset($_GET['my-listings']) ) {
-					$output .= '<a href="'.add_query_arg('my-listings', '', get_permalink()).'" class="db-see-all-listing dt-button dt-button-invert">'.__('See all listings', 'directory-builder').'</a><div class="clearfix"></div>';
+					$output .= '<a href="'.add_query_arg('my-listings', '', get_permalink()).'" class="db-see-all-listing dt-button dt-button-invert">'.__('Voir tout', 'directory-builder').'</a><div class="clearfix"></div>';
 				} else if ( isset($_GET['my-listings']) ) {
 					$total_listings = $wpdb->get_results('SELECT count(ID) as count FROM '.$wpdb->posts.' WHERE post_type="listings" && ( post_status != "auto-draft" && post_status != "trash" ) && post_author="'.get_current_user_id().'"');
 					$total_pages = $total_listings['0']->count/25;
@@ -6772,10 +6772,10 @@ function db_account_shortcode( $atts, $content = null ) {
 				}
 				$output .= '
 				<div class="db-account-favorites"'.(isset($_GET['my-favorites'])?' style="margin-top: 0;"':'').'>
-					<h2 class="db-account-title">'.__('Favorites', 'directory-builder').'</h2>
+					<h2 class="db-account-title">'.__('Mes favoris', 'directory-builder').'</h2>
 					'.do_shortcode('[directory_featured_listings limit="'.$favorite_limit.'" type="favorites"]');
 					if ( !isset($_GET['my-favorites']) ) {
-						$output .= '<a href="'.add_query_arg('my-favorites', '', get_permalink()).'" class="db-see-all-favorites dt-button dt-button-invert">'.__('See all favorites', 'directory-builder').'</a><div class="clearfix"></div>';
+						$output .= '<a href="'.add_query_arg('my-favorites', '', get_permalink()).'" class="db-see-all-favorites dt-button dt-button-invert">'.__('Voir tout', 'directory-builder').'</a><div class="clearfix"></div>';
 					} else if ( isset($_GET['my-favorites']) ) {
 						$total_favorites = $wpdb->get_results('SELECT count(ID) as count FROM '.$wpdb->posts.' as posts, '.$wpdb->postmeta.' as meta WHERE posts.post_type="listings" && posts.post_status="publish" && meta.meta_key="directory_post_likes" && meta.meta_value LIKE "%i:'.get_current_user_id().';%" && meta.post_id=posts.ID');
 						$total_fav_pages = $total_favorites['0']->count/25;
@@ -6797,7 +6797,7 @@ function db_account_shortcode( $atts, $content = null ) {
 
 			$output .= '
 			<div class="db-account-profile">
-				<h2 class="db-account-title">'.__('My profile', 'directory-builder').'</h2>'
+				<h2 class="db-account-title">'.__('Mon profil', 'directory-builder').'</h2>'
 				.$update_message.
 				'<form method="post" id="db-edit-profile">
 					<div class="db-field-row">
@@ -6809,15 +6809,15 @@ function db_account_shortcode( $atts, $content = null ) {
 						<input type="email" name="user_email" id="user_email" placeholder="'.__('Email', 'directory-builder').'" value="'.(isset($_POST['user_email'])?sanitize_email($_POST['user_email']):$user_data->data->user_email).'">
 					</div>
 					<div class="db-field-row">
-						<label for="user_password">'.__('Password', 'directory-builder').'</label>
-						<input type="password" name="user_password" id="user_password" placeholder="'.__('Password', 'directory-builder').'" value="">
+						<label for="user_password">'.__('Mot de passe', 'directory-builder').'</label>
+						<input type="password" name="user_password" id="user_password" placeholder="'.__('Mot de passe', 'directory-builder').'" value="">
 					</div>
 					<div class="db-field-row">
-						<label for="user_conf_password">'.__('Confirm password', 'directory-builder').'</label>
-						<input type="password" name="user_conf_password" id="user_conf_password" placeholder="'.__('Confirm password', 'directory-builder').'" value="">
+						<label for="user_conf_password">'.__('Confirmer mot de passe', 'directory-builder').'</label>
+						<input type="password" name="user_conf_password" id="user_conf_password" placeholder="'.__('Confirmer mot de passe', 'directory-builder').'" value="">
 					</div>
 					<input type="hidden" name="action" value="edit-profile">
-					<input type="submit" value="'.__('Save', 'directory-builder').'">
+					<input type="submit" value="'.__('Sauvegarder', 'directory-builder').'">
 				</form>';
 		}
 	}
