@@ -457,7 +457,7 @@ class db_func_Activator {
 			),
 			'pass1' => array(
 				"field_name" => "registerpassword",
-				"frontend_title" => "Password",
+				"frontend_title" => "Mot de passe",
 				"display_order" => "3",
 				"field_active" => "yes",
 				"field_for" => "[\"shortcode\",\"modal\",\"add_listing\"]",
@@ -468,7 +468,7 @@ class db_func_Activator {
 			),
 			'pass2' => array(
 				"field_name" => "registerpasswordconfirm",
-				"frontend_title" => "Confirm password",
+				"frontend_title" => "Confirmer mot de passe",
 				"display_order" => "4",
 				"field_active" => "yes",
 				"field_for" => "[\"shortcode\",\"modal\",\"add_listing\"]",

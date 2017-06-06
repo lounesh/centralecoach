@@ -6551,8 +6551,8 @@ function db_account_shortcode( $atts, $content = null ) {
 				<p class="aligncenter">' . esc_html__( 'Please enter your new password!', 'directory-builder' ) . '</p>
 				<form method="post" class="db-account-lost-pass">
 					'.$db_lost_password.'
-					<input type="password" name="db-account-pass" placeholder="'.esc_html__('Password', 'directory-builder').'" required>
-					<input type="password" name="db-account-pass2" placeholder="'.esc_html__('Confirm password', 'directory-builder').'" required>
+					<input type="password" name="db-account-pass" placeholder="'.esc_html__('Mot de passe', 'directory-builder').'" required>
+					<input type="password" name="db-account-pass2" placeholder="'.esc_html__('Confirmer mot de passe', 'directory-builder').'" required>
 					<input type="submit" value="'.esc_html__('Change', 'directory-builder').'">
 				</form>';
 			}
